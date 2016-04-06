@@ -1,0 +1,1785 @@
+Knive's Town Houses.
+
+I've converted most (99%) of the arrays to use List<>, converted many foreach statements to use Linq, among hundreds of other edits to tidy this age old system up.
+
+Original credit to the original author (in the title), I just wanted to archive a cleaner copy. 
+============
+
+Forum Discussion:
+
+
+
+    Tresdni submitted a new resource:
+
+    Knive's Town Houses 2.1 - Majorly Cleaned Up - Optimized for .NET 4.0
+
+        Knive's Town Houses.
+
+        *Do not replace your Knive's Town Houses if already serialized. This is not made to replace your existing system, as serialize has changed heavily.*
+
+        I've converted most (99%) of the arrays to use List<>, converted many foreach statements to use Linq, among hundreds of other edits to tidy this age old system up.
+
+        Original credit to the original author (in the title), I just wanted to archive a cleaner copy.
+        Click to expand...
+
+    Read more about this resource...
+     
+
+Last edited: Nov 29, 2014
+Tresdni, Nov 29, 2014
+Edit
+History
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Winner Winner x 4 Like Like x 3 List 
+
+    Undo Rating 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    awesome job :) I use this system glad to see it cleaned up.. you should update knives chat system it uses the old email method
+     
+
+Dragon Slayer, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#2
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tasanar
+Tasanar
+Super Contributor
+
+    What exactly does Linq do?
+     
+
+Tasanar, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#3
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    this for linq
+    http://msdn.microsoft.com/en-us/library/bb308959.aspx
+
+    hey I got a load error all I did was drop them in
+
+    ssaid warning no serialize method and no deserioalize method
+     
+
+Dragon Slayer, Nov 29, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#4
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    It lets you perform queries on lists and arrays, and other data. It looks similar to SQL queries.
+     
+
+Tresdni, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#5
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Hmm, more specifically? I can fix it up :)
+     
+
+Tresdni, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#6
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tasanar
+Tasanar
+Super Contributor
+
+    Ah ok so ill be rough to convert RunUO to use it in just this instance?
+     
+
+Tasanar, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#7
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    I'm guessing you replaced the old one that was already serialized with this one? This isn't a direct replacement, since there were arrays serialized, I had to change the serialize/deserialize method on some as lists.
+     
+
+Tresdni, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#8
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    You don't have to update RunUO at all to use Linq, it's built into .NET 4.0.
+     
+
+Tresdni, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#9
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tasanar
+Tasanar
+Super Contributor
+
+    Ah ok I have tried in the past to take a few scripts from here but I got errors with the RunUO.exe in response to Linq
+     
+
+Tasanar, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#10
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    well I just started a my test server fresh I droped it in and I found out where it was missing
+
+    in your
+    RUOverison.cs was missing them at the end
+
+    Code:
+
+            public override void Serialize(GenericWriter writer)
+            {
+                base.Serialize(writer);
+            }
+
+            public override void Deserialize(GenericReader reader)
+            {
+                base.Deserialize(reader);
+            }
+
+     
+
+Dragon Slayer, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#11
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Works fine on mine, those are redundant, they are just calling base methods.
+     
+
+Tresdni, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#12
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    well server was compiling just seen the warnings lol
+     
+
+Dragon Slayer, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#13
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    I think its safe for you to remove support for old runuo as this just going to support JustUO any way right? I been doing that to old scripts that still have support for old versions... I just removed them just to be working with justuo
+     
+
+Dragon Slayer, Nov 29, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#14
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    I did remove most of the support, may have missed a few though, it's a lot of code :p
+     
+
+Tresdni, Nov 29, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#15
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Tresdni updated Knive's Town Houses 2.1 - Majorly Cleaned Up with a new update entry:
+
+    Added back redundant serialize overrides to ease your minds.
+
+        Added back the redundant serialize and deserialize overrides to ease your minds :)
+
+        Again, do not replace your existing system with this, it's made for a fresh install of Knive's Town Houses. Serialization was heavily modified for Lists instead of arrays.
+
+    Read the rest of this update entry...
+     
+
+Tresdni, Nov 29, 2014
+Edit
+Delete
+Warn
+Report
+#16
++ Quote
+Reply
+
+    Funny Funny x 1 List 
+
+    Undo Rating 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    does this require houses to be frozen ?
+    or can you just build a house by hand and make it a town house? ( i'm guessing this system creates a rectangle and zones it as a house area that then recognizes house commands )
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Dec 25, 2014
+Edit
+Delete
+IP
+Report
+#17
++ Quote
+Reply
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    It is mostly for static buildings that aren't being used, but I've also used it with addons and it worked just fine. I wouldn't build a house piece by piece, it would add up to major lag down the road.
+     
+
+Tresdni, Dec 25, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#18
++ Quote
+Reply
+
+    Agree Agree x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    zerodowned said: ↑
+
+        does this require houses to be frozen ?
+        or can you just build a house by hand and make it a town house? ( i'm guessing this system creates a rectangle and zones it as a house area that then recognizes house commands )
+
+    This system pretty well works off of the region you create for it. It doesnt care what building is or is not within the boundary's or how they are built/placed :)
+
+    One thing though, make sure you have any doors (etc) placed prior to creating the house region, so they are recognized as house doors. If you add them afterwards, they will not have the security setting ability and what not.
+     
+
+Dian, Dec 25, 2014
+Edit
+Delete
+IP
+Report
+#19
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+jamesreg1973
+jamesreg1973
+Illustrious Member
+
+    I have a question just to make sure I am right on this.
+
+    On the edit to base house it says to replace this method with this code
+    Code:
+
+    public virtual bool IsInside( Point3D p, int height )
+            {
+                Sector sector = Map.GetSector( p );
+
+                foreach( BaseMulti m in sector.Multis )
+                {
+                    if ( m != this
+                    && m is Knives.TownHouses.TownHouse
+                    && ((Knives.TownHouses.TownHouse)m).ForSaleSign is Knives.TownHouses.RentalContract
+                    && ((Knives.TownHouses.TownHouse)m).IsInside( p, height ) )
+                        return false;
+                }
+
+                return Region.Contains( p );
+            }
+
+    This is what my method looks like in my househouse.cs
+
+    Code:
+
+     public virtual bool IsInside(Point3D p, int height)
+            {
+                if (this.Deleted)
+                    return false;
+
+                MultiComponentList mcl = this.Components;
+
+                int x = p.X - (this.X + mcl.Min.X);
+                int y = p.Y - (this.Y + mcl.Min.Y);
+
+                if (x < 0 || x >= mcl.Width || y < 0 || y >= mcl.Height)
+                    return false;
+
+                if (this is HouseFoundation && y < (mcl.Height - 1) && p.Z >= this.Z)
+                    return true;
+
+                StaticTile[] tiles = mcl.Tiles[x][y];
+
+                for (int j = 0; j < tiles.Length; ++j)
+                {
+                    StaticTile tile = tiles[j];
+                    int id = tile.ID & TileData.MaxItemValue;
+                    ItemData data = TileData.ItemTable[id];
+
+                    // Slanted roofs do not count; they overhang blocking south and east sides of the multi
+                    if ((data.Flags & TileFlag.Roof) != 0)
+                        continue;
+
+                    // Signs and signposts are not considered part of the multi
+                    if ((id >= 0xB95 && id <= 0xC0E) || (id >= 0xC43 && id <= 0xC44))
+                        continue;
+
+                    int tileZ = tile.Z + this.Z;
+
+                    if (p.Z == tileZ || (p.Z + height) > tileZ)
+                        return true;
+                }
+
+                return false;
+            }
+
+    Would I need to replace every bit of that? Just wanted to make sure as if there were changes from when the townhouse script was created and the current basehouse.cs we have now that none of that is needed?
+     
+
+jamesreg1973, Jan 27, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#20
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    Yes, you are correct. Replace the entire method with the one provided. I have been using this same change for years, and both TownHouse and Deeded Houses still seem to work just fine.
+    I also was uncertain, as it would seem that the deeded houses would be effected with some problem, but they are both fine.
+     
+
+Dian, Jan 27, 2015
+Edit
+Delete
+IP
+Report
+#21
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+jamesreg1973
+jamesreg1973
+Illustrious Member
+
+    I hate asking stupid questions but I looked at all that and was like im not so sure about replacing all that. Thank you ask townhouse features are a major thing I want to play with. Have you ever had any problems with the amount of townhouses used in game? Ideally I would like to replace much of the NPC vendor shops in towns and make them rentable Vendor shops to Players can the system handle this much load based on your experiences.
+     
+
+jamesreg1973, Jan 27, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#22
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    Should take less memory than having the same number of houses. It's basically a region checking thing so it doesnt even add to the number of items like having the same number of player houses would.
+     
+
+Ravenwolfe, Jan 27, 2015
+Edit
+History
+Delete
+IP
+Report
+#23
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+jamesreg1973
+jamesreg1973
+Illustrious Member
+
+    This compiles just fine but in all the shard loading text I have this message going on
+
+    Warning: Knives.TownHouses.VersionHouse
+    - No Serialize() method
+    - No Deserialize() method
+     
+
+jamesreg1973, Jan 27, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#24
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+jamesreg1973
+jamesreg1973
+Illustrious Member
+
+    jamesreg1973 said: ↑
+
+        This compiles just fine but in all the shard loading text I have this message going on
+
+        Warning: Knives.TownHouses.VersionHouse
+        - No Serialize() method
+        - No Deserialize() method
+
+    I also get this same message with the server rebirth rares script
+
+    I am using the most current version of JustUO and the version of townhouses on this thread fresh installs 
+	
+
+
+
+    That's VNC being over cautious, you can safely ignore that. There is no reason to have a serial/deserial method. If it bothers you to see the warning, you can add an empty deserial/serial method to those scripts and it will go away.
+     
+
+Ravenwolfe, Jan 27, 2015
+Edit
+History
+Delete
+IP
+Report
+#26
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    *oops, didnt notice Ravenwolfe's post :p *
+
+    Yea, that script has no Serialization method, as it states. You can add one to it..
+    It will remove that warning, though its not needed according to Tresdni.. He says its redundant. I added it too though.
+
+    In RUOVersions.cs file,
+    Code:
+
+    public override void Serialize(GenericWriter writer)
+      {
+      base.Serialize(writer);
+      }
+
+      public override void Deserialize(GenericReader reader)
+      {
+      base.Deserialize(reader);
+      }
+
+    Or if you need entire script to be certain where..
+    Code:
+
+    #region References
+
+    using System.Collections;
+    using System.Collections.Generic;
+    using Server;
+    using Server.Commands;
+    using Server.Multis;
+
+    #endregion
+
+    #if (RunUO_2_RC1)
+      using Server.Commands;
+    #endif
+
+    namespace Knives.TownHouses
+    {
+      public class RUOVersion
+      {
+      private static readonly Hashtable s_Commands = new Hashtable();
+
+      public static void AddCommand(string com, AccessLevel acc, TownHouseCommandHandler cch)
+      {
+      s_Commands[com.ToLower()] = cch;
+      CommandSystem.Register(com, acc, OnCommand);
+      }
+
+      private static void OnCommand(CommandEventArgs e)
+      {
+      if (s_Commands[e.Command.ToLower()] == null)
+      {
+      return;
+      }
+
+      ((TownHouseCommandHandler) s_Commands[e.Command.ToLower()])(new CommandInfo(e.Mobile, e.Command, e.ArgString,
+      e.Arguments));
+      }
+
+      public static void UpdateRegion(TownHouseSign sign)
+      {
+      if (sign.House == null)
+      {
+      return;
+      }
+
+      sign.House.UpdateRegion();
+
+      Rectangle3D rect = new Rectangle3D(Point3D.Zero, Point3D.Zero);
+
+      for (int i = 0; i < sign.House.Region.Area.Length; ++i)
+      {
+      rect = sign.House.Region.Area[i];
+      rect = new Rectangle3D(
+      new Point3D(rect.Start.X - sign.House.X, rect.Start.Y - sign.House.Y, sign.MinZ),
+      new Point3D(rect.End.X - sign.House.X, rect.End.Y - sign.House.Y, sign.MaxZ));
+      sign.House.Region.Area[i] = rect;
+      }
+
+      sign.House.Region.Unregister();
+      sign.House.Region.Register();
+      sign.House.Region.GoLocation = sign.BanLoc;
+      }
+
+      public static bool RegionContains(Region region, Mobile m)
+      {
+      return region.GetMobiles().Contains(m);
+      }
+
+      public static IEnumerable<Rectangle3D> RegionArea(Region region)
+      {
+      return region.Area;
+      }
+      }
+
+      public class VersionHouse : BaseHouse
+      {
+      protected VersionHouse(int id, Mobile m, int locks, int secures)
+      : base(id, m, locks, secures)
+      {
+      }
+
+      public override Rectangle2D[] Area
+      {
+      get { return new Rectangle2D[5]; }
+      }
+
+      public override Point3D BaseBanLocation
+      {
+      get { return Point3D.Zero; }
+      }
+
+      public VersionHouse(Serial serial)
+      : base(serial)
+      {
+      }
+
+      public override void Serialize(GenericWriter writer)
+      {
+      base.Serialize(writer);
+      }
+
+      public override void Deserialize(GenericReader reader)
+      {
+      base.Deserialize(reader);
+      }
+      }
+    }
+
+     
+
+Dian, Jan 27, 2015
+Edit
+History
+Delete
+IP
+Report
+#27
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fireball
+Fireball
+Distinguished Member
+
+    Hi guys,
+    I've just dropped this in my shard and I have a problem which only affects buildings in GreenAcres.
+
+    At first I thought it just didn't work as I tested it on a custom (brick-by-brick) building in GreenAcres. I set it up and then clicked the claim button and everything except the doors, a staircase and the sign vanished!
+
+    I then went to Britain and did the same with one of the normal static town buildings there and it worked perfectly, so next I built my custom house on a flat spot in the normal world and ran TownHouses on that and it worked perfectly there. Went back to GreenAcres and tried it again (incase I had messed something up) there with exactly the same failure I originally had. Is there something about GreenAcres which prevents this working?
+
+    The other thing that is a bit annoying is that the secures and lockdowns seem to be messed up. It appears to give the house the number of lockdowns and secures it fancies, but the secures are double the lockdowns, and the secures are a ludicrously large number. Once the house is claimed I can go back in and edit them to, say, make the secures 50 and then go back in again to make the lockdowns 3000 but whatever I do it will not let me do both on the fly.
+
+    Has anyone else seen this?
+
+    Thanks
+
+    FB
+
+    PS. Running RunUO 2.4
+     
+
+Fireball, Feb 18, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#28
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    Fireball said: ↑
+
+        Hi guys,
+        I've just dropped this in my shard and I have a problem which only affects buildings in GreenAcres.
+
+        At first I thought it just didn't work as I tested it on a custom (brick-by-brick) building in GreenAcres. I set it up and then clicked the claim button and everything except the doors, a staircase and the sign vanished!
+
+        I then went to Britain and did the same with one of the normal static town buildings there and it worked perfectly, so next I built my custom house on a flat spot in the normal world and ran TownHouses on that and it worked perfectly there. Went back to GreenAcres and tried it again (incase I had messed something up) there with exactly the same failure I originally had. Is there something about GreenAcres which prevents this working?
+
+        The other thing that is a bit annoying is that the secures and lockdowns seem to be messed up. It appears to give the house the number of lockdowns and secures it fancies, but the secures are double the lockdowns, and the secures are a ludicrously large number. Once the house is claimed I can go back in and edit them to, say, make the secures 50 and then go back in again to make the lockdowns 3000 but whatever I do it will not let me do both on the fly.
+
+        Has anyone else seen this?
+
+        Thanks
+
+        FB
+
+        PS. Running RunUO 2.4
+        Click to expand...
+
+    getting around to trying this system out for an idea.
+    i wanted to create nonmovable tiles as a floor without freezing them. when i claim the property it deletes the nonmovable floor, if i demolish the house it puts them back.
+
+    seems to be something in the code that deletes non-static/non-frozen items even if you say you want the player to have them when they buy the house
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 5, 2015
+Edit
+Delete
+IP
+Report
+#29
++ Quote
+Reply
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    tried it in both greenacres and brit
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 5, 2015
+Edit
+Delete
+IP
+Report
+#30
++ Quote
+Reply
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    was able to confirm the line of code that's making it happen is line 831 in TownHouseSign.
+    I blocked it out for easy test. going to figure out what's actually wrong though.
+
+    update:
+
+    line 267 comment out c_LeaveItems = false;
+    line 565 change: ConvertItems(false); to ConvertItems(c_KeepItems);
+
+    then in the method protected virtual void ConvertItems(bool keep) change
+    else if (!c_LeaveItems) to else if (c_LeaveItems == false)
+    and
+    if (!c_KeepItems || !keep) to if ( c_KeepItems == false )
+
+
+    tested and working for both true and false now
+     
+
+Last edited: Jul 5, 2015
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 5, 2015
+Edit
+History
+Delete
+IP
+Report
+#31
++ Quote
+Reply
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    also, don't know if anyone's interested but i changed GetProps to be a little more "reader friendly"
+
+    add: using VitaNex.Network;
+    to the top of townhouse sign
+
+    end result:
+    ths.jpg
+
+    - price/lockdown/secures now have commas
+    - will indicate if forced public or private
+    - will indicate if banning is disabled (should be obvious for public buildings but it's there just in case)
+    - will indicate if a building can be traded or not
+    
+    
+
+    Code:
+
+    public override void GetProperties(ObjectPropertyList list)
+            {
+                base.GetProperties(list);
+
+                if (c_Free)
+                {
+                    list.Add(1060658, "Price\tFree");
+                }
+                else if (c_RentByTime == TimeSpan.Zero)
+                {
+                    list.Add(1060658, "Price\t{0}{1}", c_Price.ToString("#,0"), c_KeepItems ? " (+" + c_ItemsPrice.ToString("#,0") + " for the items)" : "");
+                }
+                else if (c_RecurRent)
+                {
+                    list.Add(1060658, "{0}\t{1}\r{2}", PriceType + (c_RentToOwn ? " Rent-to-Own" : " Recurring"), c_Price.ToString("#,0"),
+                        c_KeepItems ? " (+" + c_ItemsPrice.ToString("#,0") + " for the items)" : "");
+                }
+                else
+                {
+                    list.Add(1060658, "One {0}\t{1}{2}", PriceTypeShort, c_Price.ToString("#,0"),
+                        c_KeepItems ? " (+" + c_ItemsPrice.ToString("#,0") + " for the items)" : "");
+                }
+
+                list.Add(1060659, "Lockdowns\t{0}", c_Locks.ToString("#,0"));
+                list.Add(1060660, "Secures\t{0}", c_Secures.ToString("#,0"));
+
+                if (c_SkillReq != 0.0)
+                {
+                    list.Add(1060661, "Requires\t{0}", c_SkillReq + " in " + c_Skill);
+                }
+                if (c_MinTotalSkill != 0)
+                {
+                    list.Add(1060662, "Requires more than\t{0} total skills", c_MinTotalSkill);
+                }
+                if (c_MaxTotalSkill != 0)
+                {
+                    list.Add(1060663, "Requires less than\t{0} total skills", c_MaxTotalSkill);
+                }
+
+                if (c_YoungOnly)
+                {
+                    list.Add(1063483, "Must be\tYoung");
+                }
+                else switch (c_Murderers)
+                {
+                    case Intu.Yes:
+                        list.Add(1063483, "Must be\ta murderer");
+                        break;
+                    case Intu.No:
+                        list.Add(1063483, "Must be\tinnocent");
+                        break;
+                }
+               
+                var opl = new ExtendedOPL( list );
+               
+                if( c_ForcePrivate == true ) {
+                    opl.Add("Area required to be Private");
+                }
+                if( c_ForcePublic == true ) {
+                    opl.Add("Area required to be Public");
+                }
+                if( c_NoBanning == true){
+                    opl.Add("Banning Disabled");
+                }
+                if( c_NoBanning == false){
+                    opl.Add("Banning Disabled");
+                }
+                if( c_NoTrade == true ) {
+                    opl.Add("This area cannot be Traded");
+                }
+                if( c_NoTrade == false ) {
+                    opl.Add("This area can be Traded");
+                }
+               
+                opl.Apply( );
+            }
+
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 5, 2015
+Edit
+Delete
+IP
+Report
+#32
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+Greed
+Energetic
+Greed
+Grandmaster Member
+Gold Star Member
+
+    you're so gosh darn great zero
+     
+
+Greed, Jul 5, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#33
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    thanks man, i do what i can
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 6, 2015
+Edit
+Delete
+IP
+Report
+#34
++ Quote
+Reply
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    it should also be noted that if you make an item Movable = false and then add a townhouse the item will be considered locked down and can be released by the owner, once they or if they demolish the house everything that was originally there will be readded.
+    but it will not duplicate a copy of an item on top of the original.
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 6, 2015
+Edit
+Delete
+IP
+Report
+#35
++ Quote
+Reply
+Fireball
+Fireball
+Distinguished Member
+
+    Thanks zero. I almost had a clutcher when I resold a house that was full of stuff and it all got deleted. I thought I maybe didn't select the option correctly so I reverted and tried again with the same effect! This is a great help thank you.
+
+    Also actually while I am on this post, there is another problem with Knive's Town Houses and that is the patch for checking what's in the house (IsInside I think). It completely messes up castle courtyards so you can't mark or recall there without mapping out the courtyard in houses.cs which is a pain and that brings another problem in that people can then mark runes on the castle bridges! I became quite concerned with these problems and if it wasn't so totally awesome to be able to declare anything you care to place is a "house" or turn a town building into a shop I would probably have got rid of it long ago. So great to see another bug bite the dust!
+
+    Thanks!
+
+    FB
+     
+
+Fireball, Jul 6, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#36
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+
+    actually i just checked with the distro BaseHouse and i can mark in recall in Castle Courtyards just fine
+     
+
+Last edited: Jul 6, 2015
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 6, 2015
+Edit
+History
+Delete
+IP
+Report
+#37
++ Quote
+Reply
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    I too have been finally testing this out as players have requested it. There seems to be an issue when a player tries to "demolish" a rented location. It crashes the server. Not like reboots and gives a crash log but like it completely errors out and terminates with no log. This is in the console before I hit ok on the crash termination report.
+
+    Code:
+
+    22:00:44 World: Saving...Warning: Attempted to add 0x40016BBF "Bag" during world
+    save.
+    This action could cause inconsistent state.
+    It is strongly advised that the offending scripts be corrected.
+    22:00:45 Warning: Attempted to delete 0x40016BBF "Bag" during world save.
+    This action could cause inconsistent state.
+    It is strongly advised that the offending scripts be corrected.
+    22:00:45 Warning: Attempted to add 0x40016C12 "BankCheck" during world save.
+    This action could cause inconsistent state.
+    It is strongly advised that the offending scripts be corrected.
+    22:00:45 Warning: Attempted to delete 0x40018712 "TownHouse" during world save.
+    This action could cause inconsistent state.
+    It is strongly advised that the offending scripts be corrected.
+    Process is terminated due to StackOverflowException.
+
+    This error happens if you try demolishing a rental contract, if a gm just tries deleting it, or even if the main owner of the home destroys there home and on world save the rental contract is supposed to be terminatd. So basically when ever rentals are terminated. Makes that feature useless. :(
+
+
+    If it helps, here is the COMPLETE world save error log.
+
+    Code:
+
+    7/6/2015 10:00:45 PM    Warning: Attempted to add 0x40016BBF "Bag" during world save.
+    This action could cause inconsistent state.
+    It is strongly advised that the offending scripts be corrected.
+       at Server.Item..ctor()
+       at Server.Items.Container..ctor(Int32 itemID)
+       at Server.Items.Bag..ctor()
+       at Knives.TownHouses.TownHouseSign.PackUpItems()
+       at Knives.TownHouses.TownHouseSign.PackUpHouse()
+       at Knives.TownHouses.RentalContract.Delete()
+       at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+       at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+       at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+       at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+       at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+       at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+       at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+       at Server.Network.MessagePump.HandleReceive(NetState ns)
+       at Server.Network.MessagePump.Slice()
+       at Server.Core.Main(String[] args)
+
+
+    7/6/2015 10:00:45 PM    Warning: Attempted to delete 0x40016BBF "Bag" during world save.
+    This action could cause inconsistent state.
+    It is strongly advised that the offending scripts be corrected.
+       at Knives.TownHouses.TownHouseSign.PackUpItems()
+       at Knives.TownHouses.TownHouseSign.PackUpHouse()
+       at Knives.TownHouses.RentalContract.Delete()
+       at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+       at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+       at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+       at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+       at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+       at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+       at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+       at Server.Network.MessagePump.HandleReceive(NetState ns)
+       at Server.Network.MessagePump.Slice()
+       at Server.Core.Main(String[] args)
+
+
+    7/6/2015 10:00:45 PM    Warning: Attempted to add 0x40016C12 "BankCheck" during world save.
+    This action could cause inconsistent state.
+    It is strongly advised that the offending scripts be corrected.
+       at Server.Item..ctor()
+       at Knives.TownHouses.TownHouseSign.PackUpHouse()
+       at Knives.TownHouses.RentalContract.Delete()
+       at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+       at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+       at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+       at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+       at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+       at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+       at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+       at Server.Network.MessagePump.HandleReceive(NetState ns)
+       at Server.Network.MessagePump.Slice()
+       at Server.Core.Main(String[] args)
+
+
+    7/6/2015 10:00:45 PM    Warning: Attempted to delete 0x40018712 "TownHouse" during world save.
+    This action could cause inconsistent state.
+    It is strongly advised that the offending scripts be corrected.
+       at Knives.TownHouses.RentalContract.Delete()
+       at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+       at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+       at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+       at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+       at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+       at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+       at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+       at Server.Network.MessagePump.HandleReceive(NetState ns)
+       at Server.Network.MessagePump.Slice()
+       at Server.Core.Main(String[] args)
+
+
+    7/6/2015 10:08:54 PM    Warning: Attempted to delete 0x400186B9 "RentalContract" during world save.
+    This action could cause inconsistent state.
+    It is strongly advised that the offending scripts be corrected.
+       at Knives.TownHouses.TownHouseSign.Delete()
+       at Knives.TownHouses.RentalContract.Delete()
+       at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+       at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+       at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+       at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+       at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+       at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+       at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+       at Server.Network.MessagePump.HandleReceive(NetState ns)
+       at Server.Network.MessagePump.Slice()
+       at Server.Core.Main(String[] args)
+
+     
+
+Last edited: Jul 6, 2015
+Forest Condon, Jul 6, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#38
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    Forest Condon said: ↑
+
+        I too have been finally testing this out as players have requested it. There seems to be an issue when a player tries to "demolish" a rented location. It crashes the server. Not like reboots and gives a crash log but like it completely errors out and terminates with no log. This is in the console before I hit ok on the crash termination report.
+
+        Code:
+
+        22:00:44 World: Saving...Warning: Attempted to add 0x40016BBF "Bag" during world
+        save.
+        This action could cause inconsistent state.
+        It is strongly advised that the offending scripts be corrected.
+        22:00:45 Warning: Attempted to delete 0x40016BBF "Bag" during world save.
+        This action could cause inconsistent state.
+        It is strongly advised that the offending scripts be corrected.
+        22:00:45 Warning: Attempted to add 0x40016C12 "BankCheck" during world save.
+        This action could cause inconsistent state.
+        It is strongly advised that the offending scripts be corrected.
+        22:00:45 Warning: Attempted to delete 0x40018712 "TownHouse" during world save.
+        This action could cause inconsistent state.
+        It is strongly advised that the offending scripts be corrected.
+        Process is terminated due to StackOverflowException.
+
+        This error happens if you try demolishing a rental contract, if a gm just tries deleting it, or even if the main owner of the home destroys there home and on world save the rental contract is supposed to be terminatd. So basically when ever rentals are terminated. Makes that feature useless. :(
+
+
+        If it helps, here is the COMPLETE world save error log.
+
+        Code:
+
+        7/6/2015 10:00:45 PM    Warning: Attempted to add 0x40016BBF "Bag" during world save.
+        This action could cause inconsistent state.
+        It is strongly advised that the offending scripts be corrected.
+           at Server.Item..ctor()
+           at Server.Items.Container..ctor(Int32 itemID)
+           at Server.Items.Bag..ctor()
+           at Knives.TownHouses.TownHouseSign.PackUpItems()
+           at Knives.TownHouses.TownHouseSign.PackUpHouse()
+           at Knives.TownHouses.RentalContract.Delete()
+           at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+           at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+           at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+           at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+           at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+           at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+           at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+           at Server.Network.MessagePump.HandleReceive(NetState ns)
+           at Server.Network.MessagePump.Slice()
+           at Server.Core.Main(String[] args)
+         
+         
+        7/6/2015 10:00:45 PM    Warning: Attempted to delete 0x40016BBF "Bag" during world save.
+        This action could cause inconsistent state.
+        It is strongly advised that the offending scripts be corrected.
+           at Knives.TownHouses.TownHouseSign.PackUpItems()
+           at Knives.TownHouses.TownHouseSign.PackUpHouse()
+           at Knives.TownHouses.RentalContract.Delete()
+           at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+           at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+           at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+           at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+           at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+           at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+           at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+           at Server.Network.MessagePump.HandleReceive(NetState ns)
+           at Server.Network.MessagePump.Slice()
+           at Server.Core.Main(String[] args)
+         
+         
+        7/6/2015 10:00:45 PM    Warning: Attempted to add 0x40016C12 "BankCheck" during world save.
+        This action could cause inconsistent state.
+        It is strongly advised that the offending scripts be corrected.
+           at Server.Item..ctor()
+           at Knives.TownHouses.TownHouseSign.PackUpHouse()
+           at Knives.TownHouses.RentalContract.Delete()
+           at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+           at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+           at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+           at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+           at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+           at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+           at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+           at Server.Network.MessagePump.HandleReceive(NetState ns)
+           at Server.Network.MessagePump.Slice()
+           at Server.Core.Main(String[] args)
+         
+         
+        7/6/2015 10:00:45 PM    Warning: Attempted to delete 0x40018712 "TownHouse" during world save.
+        This action could cause inconsistent state.
+        It is strongly advised that the offending scripts be corrected.
+           at Knives.TownHouses.RentalContract.Delete()
+           at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+           at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+           at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+           at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+           at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+           at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+           at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+           at Server.Network.MessagePump.HandleReceive(NetState ns)
+           at Server.Network.MessagePump.Slice()
+           at Server.Core.Main(String[] args)
+         
+         
+        7/6/2015 10:08:54 PM    Warning: Attempted to delete 0x400186B9 "RentalContract" during world save.
+        This action could cause inconsistent state.
+        It is strongly advised that the offending scripts be corrected.
+           at Knives.TownHouses.TownHouseSign.Delete()
+           at Knives.TownHouses.RentalContract.Delete()
+           at Knives.TownHouses.General.OnSave(WorldSaveEventArgs e)
+           at Server.WorldSaveEventHandler.Invoke(WorldSaveEventArgs e)
+           at Server.World.Save(Boolean message, Boolean permitBackgroundWrite)
+           at Server.Commands.CommandHandlers.Save_OnCommand(CommandEventArgs e)
+           at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type)
+           at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue)
+           at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc)
+           at Server.Network.MessagePump.HandleReceive(NetState ns)
+           at Server.Network.MessagePump.Slice()
+           at Server.Core.Main(String[] args)
+
+        Click to expand...
+
+    I know that was an issue with an older version released on RunUO but I haven't had any issues with this version.
+    I've demolished and rented multiple properties several times without any issues.
+    I even tried deleting the townhousesign while owned by someone and it won't let me.
+
+    Seems very solid to me.
+
+    so the question is, are you using this version?
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 6, 2015
+Edit
+Delete
+IP
+Report
+#39
++ Quote
+Reply
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    I compared the files and it's the same zip, size and everything. Just in case I somehow got mixed up I'll test this new one as soon as I have time when kids go to bed but I i'm 99.9% positive it's the correct one..
+
+    Though if it makes a difference the house we were having issues with was a static building near the britain bank. I'll retest tonight when I have a chance.
+     
+
+Forest Condon, Jul 6, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#40
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    interesting, I've tried it with a static build too and found no issues. that was after I made the changes. might check on the RunUO boards if you still have the problem to see how others fixed it before
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 6, 2015
+Edit
+Delete
+IP
+Report
+#41
++ Quote
+Reply
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    Makes me wonder if its some wierd one time issue. using the same system I tried to replicate it and cant. So weird. If I find anything out about it I will reply here. BTW nice get props mod. :)
+     
+
+Forest Condon, Jul 6, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#42
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Undo Rating 
+
+Fireball
+Fireball
+Distinguished Member
+
+    zerodowned said: ↑
+
+
+        actually i just checked with the distro BaseHouse and i can mark in recall in Castle Courtyards just fine
+
+    Yeah it works fine with the distro (I'm actually using RunUO 2.4) but if you add the recommended TownHouses patch it changes (from memory) checking you are PartOf(HouseRegion) to checking IsInside, and I think it was that which stopped recalling into coutyards from working. It returns as blocked.
+    If you take out that patch then courtyards work fine again.
+
+    Code:
+
+    // Town Houses Patch:
+    // public virtual bool IsInside( Point3D p, int height )
+    // {
+    // if ( Deleted )
+    // return false;
+    //
+    // MultiComponentList mcl = Components;
+    //
+    // int x = p.X - (X + mcl.Min.X);
+    // int y = p.Y - (Y + mcl.Min.Y);
+    //
+    // if ( x < 0 || x >= mcl.Width || y < 0 || y >= mcl.Height )
+    // return false;
+    //
+    // if ( this is HouseFoundation && y < (mcl.Height-1) && p.Z >= this.Z )
+    // return true;
+    //
+    // StaticTile[] tiles = mcl.Tiles[x][y];
+    //
+    // for ( int j = 0; j < tiles.Length; ++j )
+    // {
+    // StaticTile tile = tiles[j];
+    // int id = tile.ID & TileData.MaxItemValue;
+    // ItemData data = TileData.ItemTable[id];
+    //
+    //  Slanted roofs do not count; they overhang blocking south and east sides of the multi
+    // if ( (data.Flags & TileFlag.Roof) != 0 )
+    // continue;
+    //
+    //  Signs and signposts are not considered part of the multi
+    // if ( (id >= 0xB95 && id <= 0xC0E) || (id >= 0xC43 && id <= 0xC44) )
+    // continue;
+    //
+    // int tileZ = tile.Z + this.Z;
+    //
+    // if ( p.Z == tileZ || (p.Z + height) > tileZ )
+    // return true;
+    // }
+    //
+    // return false;
+    // }
+    public virtual bool IsInside( Point3D p, int height )
+    {
+    Sector sector = Map.GetSector( p );
+    foreach( BaseMulti m in sector.Multis )
+    {
+    if ( m != this
+    && m is Knives.TownHouses.TownHouse
+    && ((Knives.TownHouses.TownHouse)m).ForSaleSign is Knives.TownHouses.RentalContract
+    && ((Knives.TownHouses.TownHouse)m).IsInside( p, height ) )
+    return false;
+    }
+    return Region.Contains( p );
+    }
+    // End of Town houses patch
+
+     
+
+Fireball, Jul 7, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#43
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Undo Rating 
+
+Visam
+Visam
+Distinguished Member
+
+    I really like the extra sign info that zerodowned posted, but a small fix:
+
+    There is a typo in the code for adding more info to the sign as it shows banning disabled regardless if it is enabled or not to fix simply change the following.
+
+    if( c_NoBanning == true){
+    opl.Add("Banning Disabled");
+    }
+    if( c_NoBanning == false){
+    opl.Add("Banning Disabled"); //the line to fix is here change Disabled to Enabled
+    }
+     
+
+Visam, Jul 10, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#44
++ Quote
+Reply
+
+    Like Like x 1 Agree Agree x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    I made the Interior Decorator mod (cause players couldnt raise decoration) and this error I get.
+
+    Code:
+
+    ----------------------------------------------------------------------------
+    JustUO - [http://www.playuo.org] Version 2.0
+    Publish 4
+    Core: .NET Framework Version 4.0.30319
+    Core: Optimizing for 4 64-bit processors
+    RandomImpl: CSPRandom (Software)
+    Scripts: Compiling C# scripts...Failed with: 1 errors
+    Errors:
+     + Items/- Misc/InteriorDecorator.cs:
+        CS0246: Line 324: The type or namespace name 'Tile' could not be found (are
+    you missing a using directive or an assembly reference?)
+        CS0029: Line 324: Cannot implicitly convert type 'Server.StaticTile[]' to 'T
+    ile[]'
+
+     
+
+Forest Condon, Jul 18, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#45
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    ah, yeah i found the fix for that on RunUO i think
+
+    StaticTile[] tiles = map.Tiles.GetStaticTiles(item.X, item.Y, true);
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Jul 19, 2015
+Edit
+Delete
+IP
+Report
+#46
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    Thanks man
+     
+
+Forest Condon, Jul 19, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#47
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Undo Rating 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    zerodowned said: ↑
+
+        was able to confirm the line of code that's making it happen is line 831 in TownHouseSign.
+        I blocked it out for easy test. going to figure out what's actually wrong though.
+
+        update:
+
+        line 267 comment out c_LeaveItems = false;
+        line 565 change: ConvertItems(false); to ConvertItems(c_KeepItems);
+
+        then in the method protected virtual void ConvertItems(bool keep) change
+        else if (!c_LeaveItems) to else if (c_LeaveItems == false)
+        and
+        if (!c_KeepItems || !keep) to if ( c_KeepItems == false )
+
+
+        tested and working for both true and false now
+        Click to expand...
+
+    after not opening my bank box for a few months i realized a problem with this edit.
+    you need to be careful what you set it up with.
+
+    for example, i tiled stonepavers and added the townhouse area over it. when i go to demolish the house, all those tiles get added to my bankbox in the moving container.
+
+    yikes 
