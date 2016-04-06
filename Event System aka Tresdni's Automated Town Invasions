@@ -1,0 +1,898 @@
+*Moving this over from my old home, Orbsydia.*
+
+This is the first plug and play town invasion system you will ever see released publicly. Simply drop it in your customs and restart your shard, and the entire system is all set.
+
+Credits
+
+- Milt wrote an unfinished version of the event system that I used as a small base. I completed this portion and wrote this entire event myself. It would be unfair to not give him credit for the idea and the base of this awesome system that I helped come about.
+
+How It Works
+
+Town invasions are set currently to happen to a random town every 12 hours. When a town is invaded, the guards "run away" (get disabled automatically) and the entire town gets overrun with spawn. Each town supported has it's own creature/boss template that I based mostly on old OSI events from back in the day. I know, you're excited already, because it is awesome.
+
+Once ALL of the spawn is killed, a champion arises as a boss. Guards will not return to the town until the champion is killed, and it also gets announced.
+
+The Neighborhood Watch
+
+These guys do not walk around, and are kind of like a town crier. Place them in every town near a bank preferably. When an invasion happens, they will start yelling which town is being invaded and that their citizens need help. Once the invasion is fought off, they will say everything is fine again. Afterall, we don't want our players just wandering to find our event now do we?
+
+Invaded Towns
+
+- Britain - This town is currently commented out because of it's popularity with starting areas, you can uncomment it in TownInvasion.cs.
+
+- Moonglow
+- Minoc
+- Delucia
+- Ocllo
+- Skara Brae
+- Yew
+
+A single town is invaded at random to keep players on their toes.
+
+Some Side NotesI have always hated some of the small things people leave out of awesome systems like this. What I have done for you is assured that no current invasion will be left out by the timers, I've cleaned up all of the mess. Even if you restart during an invasion, the spawn and entire system get reset automatically for you.
+
+Enjoy the invasions, I feel the UO community has needed this for a long, long time. I am very happy to provide you with it. 
+
+================
+
+Forum Discussion:
+
+
+
+    Tresdni submitted a new resource:
+
+    Tresdni's Automated Town Invasions - Towns get invaded, guards go away, and the fight is on! All you have to do is watch it happen.
+
+        *Moving this over from my old home, Orbsydia.*
+
+        This is the first plug and play town invasion system you will ever see released publicly. Simply drop it in your customs and restart your shard, and the entire system is all set.
+
+        Credits
+
+        - Milt wrote an unfinished version of the event system that I used as a small base. I completed this portion and wrote this entire event myself. It would be unfair to not give him credit for the idea and the base of this awesome system that I helped come...
+        Click to expand...
+
+    Read more about this resource...
+     
+
+Tresdni, Nov 23, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Like Like x 4 Winner Winner x 3 Useful Useful x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    Awesome! Been wondering when something like this would pop up :)
+
+    Really cool!
+     
+
+Dian, Nov 23, 2014
+Edit
+Delete
+IP
+Report
+#2
++ Quote
+Reply
+
+    Agree Agree x 2 Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    I have that system I love it when I login I see the watch guy being like moonglow is invaded ect but you forgot to say there is a command to control it all... [towninvasion brings up a gump to set the times ect but this is a awesome system there is some limited support for it like only works for one map not two or three would be cool if that was added. hey and your achievement system could be on this where you defeat the boss of the invading town get achievement hehe
+     
+
+Dragon Slayer, Nov 23, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#3
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    It actually does support multiple maps, just needs a little code tweaking :)
+     
+
+Tresdni, Nov 23, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#4
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Hank
+No Mood
+Hank
+Super Contributor
+
+    Thank you so much for sharing Tresdni. This has saved me a lot of time. Much appreciated!
+     
+
+Hank, Nov 23, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#5
++ Quote
+Reply
+
+    Like Like x 2 Agree Agree x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tasanar
+Tasanar
+Super Contributor
+
+    Love it, one question though - On a shard restart it goes back to saying No town is currently invaded. Would I need to re-enter the command to start it? Would like it to always be running. I like the timer between invasions but I mean every 12 hours no matter what will it now do it?
+     
+
+Tasanar, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#6
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    It resets after a shard restart, and yes, still fully automated. You never have to run a command to initialize this system.
+     
+
+Tresdni, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#7
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tasanar
+Tasanar
+Super Contributor
+
+    Oh ok, I set my timer to 8 hours. How long after a restart does it take to start? 8 hours?
+     
+
+Tasanar, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#8
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Yep, whatever you set your timer for.
+     
+
+Tresdni, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#9
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    How much work would it take to set an invasion up in a custom area.. for instance, I have a custom map, would I need to recode some things, or is it configurable in game?
+    I see the moongate location script at least would need redone..
+     
+
+Dian, Nov 24, 2014
+Edit
+Delete
+IP
+Report
+#10
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    Found an issue. It keeps spawning on Felucca, despite my change.
+
+    To recreate:
+
+    Loaded a clean shard.
+    Added Invasion Announcer.
+    Used [towninvasion command and set the spawn map to Trammel.
+    Used [starttowninvasion command to start the invasion immediately and they spawned in Felucca.
+    Checked the gump in [towninvasion and it had reverted to Felucca.
+
+    Thanks!
+     
+
+Ravenwolfe, Nov 24, 2014
+Edit
+Delete
+IP
+Report
+#11
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    That's because that gump only shows the current/last invasion. The maps and areas get set in the scripts, you'll find a switch statement with them inside. It picks one at random, and none of them are coded for Trammel. You have to modify those yourself.
+     
+
+Tresdni, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#12
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tasanar
+Tasanar
+Super Contributor
+
+    Yeah I have it set up on my shard, changed it in the scripts to Trammel, town by town, and it works fine for me. Once you run it check again and it should be fine. Just make sure you change it in the script.
+     
+
+Tasanar, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#13
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    Tresdni said: ↑
+
+        That's because that gump only shows the current/last invasion. The maps and areas get set in the scripts, you'll find a switch statement with them inside. It picks one at random, and none of them are coded for Trammel. You have to modify those yourself.
+
+    Gotcha, it was letting me change the property so I assumed it was using that information.
+     
+
+Ravenwolfe, Nov 24, 2014
+Edit
+Delete
+IP
+Report
+#14
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Well, it does use it, but only for the current running city. The original Events system was set up for one event, one area, so I had to put in the switch to allow multiple locations :)
+     
+
+Tresdni, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#15
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    Very cool system, thanks!
+
+    It looks like it might be part of a bigger events system? *grins wickedly*
+     
+
+Ravenwolfe, Nov 24, 2014
+Edit
+Delete
+IP
+Report
+#16
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Well, he never finished it, and I got from him what he had done. I've written a couple of other events with it, but nothing really worth releasing - mostly just monster bashes. Since then I've written my own set up for automated events, and have more to add to it. On this one, I've got 3 pvp events and one pvm/pvp hybrid.
+
+    If only I had twenty of me to knock my list out :D
+     
+
+Tresdni, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#17
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    I'll work on a cloning system!
+     
+
+Ravenwolfe, Nov 24, 2014
+Edit
+Delete
+IP
+Report
+#18
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    This system is great but after meeting with our player, we suggest a small change in invasion champions reward by decreasing a max level of dropped powerscrolls to 110, mayby 115 and remove champion skulls from a loot. Our player suggest that invasion champions are much easy to kill (than champion in dungeons) due lack of enemy mobiles spawned around when champion incoming (also city healer and bank are close ). We affraid that with same rewards like dungeon champions, many of -for example- powerscroll hunters change their own hunting area preferences from a most difficult dungeons spots to a most easy city invasion locations
+     
+
+Last edited: Dec 29, 2014
+Fenris, Dec 29, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#19
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    well Fenris you can change the rewards in the script your self... its pretty easy if you don't know how ask, how
+     
+
+Dragon Slayer, Dec 30, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#20
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    As I see that rewards rules are loaded from a basechampion script (powerscrolls) and each champion script (skulls).
+    Here is a basechampion.cs part of code
+
+        if (killer is PlayerMobile)
+        {
+        #region Scroll of Transcendence
+        if (Core.ML)
+        {
+        if (this.Map == Map.Felucca)
+        {
+        if (Utility.RandomDouble() < 0.001)
+        {
+        PlayerMobile pm = (PlayerMobile)killer;
+        double random = Utility.Random(49);
+
+        if (random <= 24)
+        {
+        ScrollofTranscendence SoTF = this.CreateRandomSoT(true);
+        GiveScrollTo(pm, (SpecialScroll)SoTF);
+        }
+        else
+        {
+        PowerScroll PS = PowerScroll.CreateRandomNoCraft(5, 5);
+        GiveScrollTo(pm, (SpecialScroll)PS);
+        }
+        }
+        }
+        Click to expand...
+
+    and here one champion part of code (for example Serado)
+
+        public override ChampionSkullType SkullType
+        {
+        get
+        {
+        return ChampionSkullType.Power;
+        }
+        }
+
+    This files are used by both - dungeon champion spawns and city invasion spawns. So for set a different loot rules we need to specify in basechampion different champion drop for city invasion areas and champion dungeons (same for a skulls) or most simple clone (for invasions) champion files with different name and modified loot. Whats your opinion?
+     
+
+Fenris, Dec 30, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#21
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    well you can make the city champs stronger by tweaking there stats?
+     
+
+Dragon Slayer, Dec 30, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#22
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    You're right. I create a separate champions clone files with another name (example seradoinvasion) and stats modifications.
+    Also towninvasion.cs I must be change from
+
+        switch ( m_TownChampionType )
+        {
+        default:
+        case TownChampionType.Barracoon: AddMonster( typeof( Barracoon ) ); break;
+        case TownChampionType.Harrower: AddMonster( typeof( Harrower ) ); break;
+        case TownChampionType.LordOaks: AddMonster( typeof( LordOaks ) ); break;
+        case TownChampionType.Mephitis: AddMonster( typeof( Mephitis ) ); break;
+        case TownChampionType.Neira: AddMonster( typeof( Neira ) ); break;
+        case TownChampionType.Rikktor: AddMonster( typeof( Rikktor ) ); break;
+        case TownChampionType.Semidar: AddMonster( typeof( Semidar ) ); break;
+        case TownChampionType.Serado: AddMonster( typeof( Serado ) ); break;
+        }
+        Click to expand...
+
+    to for example
+
+        switch ( m_TownChampionType )
+        {
+        default:
+        case TownChampionType.Barracoon: AddMonster( typeof( BarracoonInvasion ) ); break;
+        case TownChampionType.Harrower: AddMonster( typeof( HarrowerInvasion ) ); break;
+        case TownChampionType.LordOaks: AddMonster( typeof( LordOaksInvasion ) ); break;
+        case TownChampionType.Mephitis: AddMonster( typeof( MephitisInvasion ) ); break;
+        case TownChampionType.Neira: AddMonster( typeof( NeiraInvasion ) ); break;
+        case TownChampionType.Rikktor: AddMonster( typeof( RikktorInvasion ) ); break;
+        case TownChampionType.Semidar: AddMonster( typeof( SemidarInvasion ) ); break;
+        case TownChampionType.Serado: AddMonster( typeof( SeradoInvasion ) ); break;
+        }
+        Click to expand...
+
+    However, there remain basechampion.cs file modify for possible restrictions on the powerscrolls loot to max 110-115 (no chance for 120).
+     
+
+Last edited: Dec 30, 2014
+Fenris, Dec 30, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#23
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    I think that this basechampion.cs modification is a good way for :
+    PowerScrolls
+
+        private PowerScroll CreateRandomPowerScroll()
+        {
+        int level;
+        double random = Utility.RandomDouble();
+        if (this.Region.Name == "Britain" || this.Region.Name == "Moonglow" || this.Region.Name == "Minoc" || this.Region.Name == "Delucia" || this.Region.Name == "Ocllo" || this.Region.Name == "Skara Brae" || this.Region.Name == "Yew")
+        {
+        if ( 0.04 >= random )
+        level = 15;
+        else if ( 0.10 >= random )
+        level = 10;
+        else if ( 0.25 >= random )
+        level = 5;
+        return null;
+        }
+        else
+        {
+
+        if ( 0.02 >= random )
+        level = 20;
+        else if ( 0.08 >= random )
+        level = 15;
+        else if ( 0.20 >= random )
+        level = 10;
+        else
+        level = 5;
+        }
+
+        return PowerScroll.CreateRandomNoCraft(level, level);
+        }
+        Click to expand...
+
+    Skulls:
+
+        public override void OnDeath(Container c)
+        {
+        if (this.Map == Map.Felucca && this.Region.Name != "Britain" && this.Region.Name != "Moonglow" && this.Region.Name != "Minoc" && this.Region.Name != "Delucia" && this.Region.Name != "Ocllo" && this.Region.Name != "Skara Brae" && this.Region.Name != "Yew")
+        {
+        //TODO: Confirm SE change or AoS one too?
+        List<DamageStore> rights = BaseCreature.GetLootingRights(this.DamageEntries, this.HitsMax);
+        List<Mobile> toGive = new List<Mobile>();
+
+        for (int i = rights.Count - 1; i >= 0; --i)
+        {
+        DamageStore ds = rights;
+
+        if (ds.m_HasRight)
+        toGive.Add(ds.m_Mobile);
+        }
+
+        if (toGive.Count > 0)
+        toGive[Utility.Random(toGive.Count)].AddToBackpack(new ChampionSkull(this.SkullType));
+        else
+        c.DropItem(new ChampionSkull(this.SkullType));
+
+        }
+
+        base.OnDeath(c);
+        }
+
+        Click to expand...
+
+     
+
+Last edited: Dec 30, 2014
+Fenris, Dec 30, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#24
++ Quote
+Reply
+
+    Agree Agree x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+karolbelski
+Relaxed
+karolbelski
+Super Contributor
+
+    Ok system its really nice but when invasion start after 1 hour nobody know there is invasion. So i need make evry 30 mins worldbrodcast information for players. Sombody know how to do this ?
+     
+
+
+
+    there is a npc that says there is a invasion look in the package has the mobile
+     
+
+Dragon Slayer, Jan 24, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#26
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+karolbelski
+Relaxed
+karolbelski
+Super Contributor
+
+    Dragon Slayer Really thank you i dont see this ;)
+     
+
+karolbelski, Jan 24, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#27
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    You could use the Town Criers for this too. That is really what they are for :)
+     
+
+Dian, Jan 24, 2015
+Edit
+History
+Delete
+IP
+Report
+#28
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Burner
+Burner
+Renowned Member
+
+    Looking at the code in the invasion and the announcer, placing an InvasionAnnouncer (more if needed),will result in them announcing the invasion when it starts, and a player can say 'news' and if there is an invasion active, it should tell the player where.
+
+    That should cover what you wanted possibly, if not, you could also create an extra timer to run along side the invasion and have it do a world broadcast with:
+    World.Broadcast( 0x35, true, "{0} is being invaded! The guards have fled! Help save it's citzens!", this.m_TownInvaded); < code already included but commented out in towninvasion.cs (line 237)
+    just put it in a timer that starts with the invasion and stop it when the invasion ends, you can set the frequency of the message that way and be sure everyone gets to see it.
+     
+
+Burner, Jan 25, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#29
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Justn
+Amused
+Justn
+PlayUO Prospect
+
+    Hey was wondering if someone could help me out here. I'm pretty new to JustUO. Does anybody know how to spawn the Invasion Announcer NPC? I saw the mobile for it but couldn't find a way to make it appear in the ui menu for mobiles. Is there a command for adding them or am I missing something? Thanks a lot
+     
+
+Justn, Mar 19, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#30
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Greed
+Energetic
+Greed
+Grandmaster Member
+Gold Star Member
+
+    Justn said: ↑
+
+        Hey was wondering if someone could help me out here. I'm pretty new to JustUO. Does anybody know how to spawn the Invasion Announcer NPC? I saw the mobile for it but couldn't find a way to make it appear in the ui menu for mobiles. Is there a command for adding them or am I missing something? Thanks a lot
+
+    [add invasionannouncer :)
+
+    Although JustUO makes good use of xmlspawner so I would do [add xmlspawner, then type in invasionannouncer using the xmlspawner personally
+     
+
+Greed, Mar 19, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#31
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Justn
+Amused
+Justn
+PlayUO Prospect
+
+    Blah thanks so much for the quick response. I was making it more complicated than it was still getting use to all the commands.
+     
+
+Justn, Mar 19, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#32
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    This system is awesome. I was able to combine the announcer with the town crier which made the system even more streamlined but I was wondering if there was a way to maybe make this only a %30 chance of happening each day? I kind of would like it to not run every single day at the same time, just a chance of it happening. I cant seem to find where I may put that randomization though.
+     
+
+Forest Condon, Jul 19, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#33
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+shazzy
+shazzy
+PlayUO Prospect
+
+    Sorry to seem deft, but what does the event gate do?? Should it spawn somewhere automatically?
+    If not, well lets stick with what does it do??Thanks! 
