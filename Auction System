@@ -1,0 +1,398 @@
+Arya's Auction System + Tresdni's Auction Bot
+
+I've cleaned up Arya's auction system and wrote UO's first auction bot system to make sure this stays full of items for your players to buy!
+
+Setting up the auction system
+
+    Use [initauction in-game, it will product a controller stone for the auction system itself.
+
+    Then, do [add auctionbotcontroller and target next to that stone. This will produce a controller for my auction bot system.
+
+    Create a character on your admin account named something like "Lord British" and pull them near the auction bot controller.
+
+    [props the auction bot controller, and set the auction bot as your newly created character.
+
+    Use [auctionbotrefresh to fill your auctions for the first time.
+
+    Auctions will automatically clean themselves up and be refreshed on their own from this point forward.
+
+    Spawn auctioners ([add auctioner) in your own created auction houses in towns, or your choosing.
+
+    Players can open the auction system by standing near them and saying "auction". Admins can use [auction from anywhere to manage the system and to see current auctions.
+
+
+Now, once a day, my system will fill your auctions with 100 new auctions. You can change which type of items get put into your auctions, but I've set a lot of basic ones as great examples. You can also change it to do just like 40, 100, etc, you will see where that is set in my script.
+
+Thanks to Arya (years ago) for this great auction script. I'm happy to provide you a way to make the system more useful, and especially as a great gold sink. 
+
+===========
+
+
+
+    Tresdni submitted a new resource:
+
+    Arya's Auction System + Tresdni's Auction Bot - UO's first auction bot system!
+
+        I've cleaned up Arya's auction system and wrote UO's first auction bot system to make sure this stays full of items for your players to buy!
+
+        Setting up the auction system
+
+            Use [initauction in-game, it will product a controller stone for the auction system itself.
+
+            Then, do [add auctionbotcontroller and target next to that stone. This will produce a controller for my auction bot system.
+
+            Create a character on your admin account named something like...
+
+        Click to expand...
+
+    Read more about this resource...
+     
+
+Tresdni, Nov 18, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Winner Winner x 2 Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    So I installed this system and it seems to work without any issues so far. I love the Bot aspect to it. I am playing with it though in player mode (and staff mode) and I can't freaking see any place to bid or buy an item.
+
+    If I click on view bids it just shows me past bids. Am I blind or is something wrong with the system? Would LOVE to see it working.
+     
+
+Attached Files:
+
+    Untitled.png
+    Untitled.png
+
+    File size:
+        150.8 KB
+
+    Views:
+        42
+
+Forest Condon, May 14, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#2
++ Quote
+Reply
+
+    Informative Informative x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Greed
+Energetic
+Greed
+Grandmaster Member
+Gold Star Member
+
+    I think that's because it's the item you posted rather than someone else's item. It's not setup so that you can bid on your item because that would be pretty silly.
+     
+
+Greed, May 14, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#3
++ Quote
+Reply
+
+    Like Like x 1 Funny Funny x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    OMFG It was actually another chracter on my account but it still makes complete sense. I am an idiot. I will see myself out now. lmao.
+     
+
+Forest Condon, May 14, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#4
++ Quote
+Reply
+
+    Funny Funny x 2 Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Sareus
+Buzzed
+Sareus
+Super Contributor
+
+    Greed said: ↑
+
+        I think that's because it's the item you posted rather than someone else's item. It's not setup so that you can bid on your item because that would be pretty silly.
+
+    Just came back after testing it to tell them the same thing Greed lol
+     
+
+JustUO Server, Social Hub for Other Servers
+http://dovkas.boards.net/
+Sareus, May 14, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#5
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Darbo
+Darbo
+Renowned Member
+
+    does it broadcast cause i'm using this system which is cool but i haven't seen it broadcast like anything is being auctioned is it supposed too?
+     
+
+Last edited: May 25, 2015
+Darbo, May 25, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#6
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    I have not noticed any kind of broadcasting. I don't think the system has that function. Personally I am glad, that would get bothersome with an active server.
+     
+
+Last edited: May 25, 2015
+Forest Condon, May 25, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#7
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Darbo
+Darbo
+Renowned Member
+
+    Well that's true really now that I think about it....well thank you
+     
+
+Darbo, May 25, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#8
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Neshoba
+Relaxed
+Neshoba
+Illustrious Member
+
+    k got it installed and followed directions works but ,,get auction bot is missing from auction controller at start up and auctioned item have invalid property listed in the list even on the items that are preloaded justuo version 1 publish 4 its also finding 1 file for ultima online so may be a issue there not sure any ideas to go in right direction been awhile since I messed with scripts and kinda relearning a lot 10/22/15 since last post dumped whole system and tried again same thing it works but invalid string on items still this is what im running tried xanthos but having errors with it also still in works on it anyone have 1 of these systems in and workin ???? prefer xanthos is what we have the most of at the moment it has a savings account for bank don't need it scripted just a little help in rite direction
+    added xanthos action system to post in case anyone wants to tackle it
+    ----------------------------------------------------------------------------
+    JustUO - [http://www.playuo.org] Version 1.0
+    Publish 4
+    Core: .NET Framework Version 4.0.30319
+    Core: Optimizing for 2 processors
+    RandomImpl: CSPRandom (Software)
+    Scripts: Compiling C# scripts...Finished with: 0 errors, 0 warnings
+    Scripts: Skipping VB.NET Scripts...done (use -vb to enable)
+    Scripts: Verifying...
+    Finished (7806 items, 1525 mobiles, 5 customs) (2.72 seconds)
+    Searching for Ultima Online installations...
+    Found 1 Ultima Online installations:
+    C:\Users\Owner\Desktop\mapfile
+    **** VITA-NEX: CORE 2.2.0.0 ****
+     
+
+Attached Files:
+
+    Auction System 2.1.zip
+
+    File size:
+        100.4 KB
+
+    Views:
+        1
+
+Last edited: Oct 22, 2015
+Neshoba, Oct 15, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#9
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Neshoba
+Relaxed
+Neshoba
+Illustrious Member
+
+    my bad :Banghead: helps if your data path is reading correctly:oops: don't have invalid string anymore :):) its in and working correctly so far everything reading and bidding :Thumbsup: tresdnis auction system in and workin properly,,,,
+    gonna retry xanthos now that I got the data path thing rite :)
+     
+
+Last edited: Nov 5, 2015
+Neshoba, Oct 24, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#10
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Neshoba
+Relaxed
+Neshoba
+Illustrious Member
+
+    with a little fiddling got the botcontroller to be found and all that good stuff it works like it should ,,,, now ,,, I want to take all the extra out of it do I need to comment it all out ?? remove it ??? or ???
+
+
+    (still workin on xanthos for the savings account in bank))))
+     
+
+Neshoba, Dec 8, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#11
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    as far as comment it out vs. removing it...that's up to personal preference
+
+    I prefer to comment it out that way the original lines/methods are there for future use if neccesary.
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Dec 8, 2015
+Edit
+Delete
+IP
+Report
+#12
++ Quote
+Reply
+Neshoba
+Relaxed
+Neshoba
+Illustrious Member
+
+    cool s what I was thinkin in case I want to change items in it
+
+    commented it out still works :):) wohoo took your advice on that now I have the option to put different items on there ;) Thanks
+     
+
+Last edited: Dec 10, 2015
+Neshoba, Dec 9, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#13
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Neshoba
+Relaxed
+Neshoba
+Illustrious Member
+
+    got bot controller working so that's 1 less fix now :) moving forward to next fix lol:p:p
+     
+
+Neshoba, Dec 12, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#14
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
