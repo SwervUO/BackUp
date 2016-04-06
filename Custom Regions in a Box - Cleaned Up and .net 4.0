@@ -1,0 +1,391 @@
+I've applied the z-level fix, converted methods to use linq where available, and converted for statements to foreach loops where necessary.
+
+I also removed all of the 1.0 code and took region out of the props menu (which made the system crash the shard easily).
+
+Oh, I also converted many set's to private set's to help optimize, and also converted many public functions into private ones for optimization.
+
+Take care :)
+==============
+
+
+
+    Tresdni submitted a new resource:
+
+    Custom Regions in a Box - Cleaned Up and .net 4.0 - Custom Regions in a Box optimized.
+
+        I've applied the z-level fix, converted methods to use linq where available, and converted for statements to foreach loops where necessary.
+
+        I also removed all of the 1.0 code and took region out of the props menu (which made the system crash the shard easily).
+
+        Oh, I also converted many set's to private set's to help optimize, and also converted many public functions into private ones for optimization.
+
+        Take care :)
+        Click to expand...
+
+    Read more about this resource...
+     
+
+Tresdni, Oct 20, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Like Like x 4 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    *edit, thought this was AddonGen, my bad*
+
+    Awesome, thanks for this!
+
+
+
+
+    *im dumb sometimes yes..
+     
+
+Dian, Oct 20, 2014
+Edit
+History
+Delete
+IP
+Report
+#2
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    I posted an update to this, as I cleaned up the rest of the system that I didn't notice last night.
+     
+
+Tresdni, Oct 21, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#3
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+karolbelski
+Relaxed
+karolbelski
+Super Contributor
+
+    Ok i fI nd the problem with this , i mean if you dont set areas and save comming Then crash server. Some solution for that?
+
+    Code:
+
+    JustUO Version 1.0, Build 2.0
+    Operating System: Unix 2.6.32.42
+    .NET Framework: 4.0.30319.17020
+    Time: 03/11/2015 21:59:38
+    Mobiles: 2962
+    Items: 67198
+    Exception:
+    System.NullReferenceException: Object reference not set to an instance of an object
+      at Server.Items.RegionControl.Serialize (Server.GenericWriter writer) [0x00000] in <filename unknown>:0
+      at Server.StandardSaveStrategy.SaveItems (Server.SaveMetrics metrics) [0x00000] in <filename unknown>:0
+      at Server.StandardSaveStrategy.Save (Server.SaveMetrics metrics, Boolean permitBackgroundWrite) [0x00000] in <filename unknown>:0
+      at Server.World.Save (Boolean message, Boolean permitBackgroundWrite) [0x00000] in <filename unknown>:0
+      at Server.Misc.AutoSave.Save (Boolean permitBackgroundWrite) [0x00000] in <filename unknown>:0
+      at Server.Misc.AutoSave.Save () [0x00000] in <filename unknown>:0
+      at Server.Commands.CommandHandlers.Save_OnCommand (Server.Commands.CommandEventArgs e) [0x00000] in <filename unknown>:0
+      at Server.Commands.CommandSystem.Handle (Server.Mobile from, System.String text, MessageType type) [0x00000] in <filename unknown>:0
+      at Server.Mobile.DoSpeech (System.String text, System.Int32[] keywords, MessageType type, Int32 hue) [0x00000] in <filename unknown>:0
+      at Server.Mobiles.PlayerMobile.DoSpeech (System.String text, System.Int32[] keywords, MessageType type, Int32 hue) [0x00000] in <filename unknown>:0
+      at Server.Network.PacketHandlers.UnicodeSpeech (Server.Network.NetState state, Server.Network.PacketReader pvSrc) [0x00000] in <filename unknown>:0
+      at Server.Network.MessagePump.HandleReceive (Server.Network.NetState ns) [0x00000] in <filename unknown>:0
+      at Server.Network.MessagePump.Slice () [0x00000] in <filename unknown>:0
+      at Server.Core.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+
+    Code:
+
+    JustUO Version 1.0, Build 2.0
+    Operating System: Unix 2.6.32.42
+    .NET Framework: 4.0.30319.17020
+    Time: 03/10/2015 21:09:00
+    Mobiles: 2954
+    Items: 66711
+    Exception:
+    System.NullReferenceException: Object reference not set to an instance of an object
+      at Server.Items.RegionControl.Serialize (Server.GenericWriter writer) [0x00000] in <filename unknown>:0
+      at Server.StandardSaveStrategy.SaveItems (Server.SaveMetrics metrics) [0x00000] in <filename unknown>:0
+      at Server.StandardSaveStrategy.Save (Server.SaveMetrics metrics, Boolean permitBackgroundWrite) [0x00000] in <filename unknown>:0
+      at Server.World.Save (Boolean message, Boolean permitBackgroundWrite) [0x00000] in <filename unknown>:0
+      at Server.Misc.AutoSave.Save (Boolean permitBackgroundWrite) [0x00000] in <filename unknown>:0
+      at Server.Misc.AutoSave.Save () [0x00000] in <filename unknown>:0
+      at Server.Commands.CommandHandlers.Save_OnCommand (Server.Commands.CommandEventArgs e) [0x00000] in <filename unknown>:0
+      at Server.Commands.CommandSystem.Handle (Server.Mobile from, System.String text, MessageType type) [0x00000] in <filename unknown>:0
+      at Server.Mobile.DoSpeech (System.String text, System.Int32[] keywords, MessageType type, Int32 hue) [0x00000] in <filename unknown>:0
+      at Server.Mobiles.PlayerMobile.DoSpeech (System.String text, System.Int32[] keywords, MessageType type, Int32 hue) [0x00000] in <filename unknown>:0
+      at Server.Network.PacketHandlers.UnicodeSpeech (Server.Network.NetState state, Server.Network.PacketReader pvSrc) [0x00000] in <filename unknown>:0
+      at Server.Network.MessagePump.HandleReceive (Server.Network.NetState ns) [0x00000] in <filename unknown>:0
+      at Server.Network.MessagePump.Slice () [0x00000] in <filename unknown>:0
+      at Server.Core.Main (System.String[] args) [0x00000] in <filename unknown>:0 
+
+     
+
+Last edited: Mar 12, 2015
+karolbelski, Mar 12, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#4
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    Did you create a region stone without setting up a region?
+     
+
+Dian, Mar 12, 2015
+Edit
+Delete
+IP
+Report
+#5
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+karolbelski
+Relaxed
+karolbelski
+Super Contributor
+
+    I dont have stone just flag. ofcourse i dont create region area, i been at the moment creating area. Its empty. But this is strange for me because if you work with region control and you got it 999999+ players online and save comming and in this time you try to set up region its comming crash. No solution for that ?
+     
+
+karolbelski, Mar 12, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#6
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    If you do not create at least one initial region, it will crash because the region entries are null. At least, this had always been the one flaw with the system. I am not certain this is the problem now, because I have not used this in a long time since its been updated.. But I would guess it is still the same flaw.
+
+    You must create a region. It can not be empty.
+     
+
+Dian, Mar 12, 2015
+Edit
+Delete
+IP
+Report
+#7
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+karolbelski
+Relaxed
+karolbelski
+Super Contributor
+
+    Dian thank you for replay. I know also this problem from few years ago. But nobody can do something with that? maybe add to standard areas something like this area with XYZ 1, 1, 0 to 2, 2, 0 ? maybe this help with this problem ? how you think so ?
+     
+
+karolbelski, Mar 12, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#8
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    Yes, that is what I remember having discussed as a solution as well.. It does seem like the best way to solve the problem, and I thought someone did. But, if this was your crash problem,, I guess it is safe to say that it was not solved yet ;)
+
+    Was this the crash you had?
+
+    Seems there should be a 5x5 square tile region by default though, just to solve it.
+     
+
+Dian, Mar 12, 2015
+Edit
+History
+Delete
+IP
+Report
+#9
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Omegaexdeath
+Angelic
+Omegaexdeath
+Distinguished Member
+
+    K been messing with this a lil while today just testing it out all seemed fine I set the flag setregionControl.jpg
+    Props'd it
+    then I set the region box marked in red
+
+    setRegionbox.jpg
+    the boundary seems to work ran around the outside moving closer & farther away to make the you are now under the protection of the town guard then you are no longer under the protection of the guard
+
+    then when I get to the zone marked in green which is where the flag is right in the middle I get
+    you are under the protection of the town guard /your not under the protection of the town guard
+    over & over
+
+
+    the only things I can think of is that there is a large static structure in the middle? & region box is set at 0 plain
+    Or I did not Props something in the options?
+
+    any help with the cause would be great seems to work otherwise
+     
+
+Omegaexdeath, May 23, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#10
++ Quote
+Reply
+
+    Creative Creative x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+karolbelski
+Relaxed
+karolbelski
+Super Contributor
+
+    in one corner you can try to build it really high tower then set the bounds from top tower to ground on second corner. Because when you set up for example from one corner on the ground to another corner on the ground you got it for example Z with value 1. Try this solution for me works great
+     
+
+karolbelski, May 25, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#11
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Omegaexdeath
+Angelic
+Omegaexdeath
+Distinguished Member
+
+    TY I will
+    was on my list I got a skill gain problem right now.
+    Ill try this in a bit I figured it had to do with the huge structure in the middle of my town cuz the border at ground level works lol
+     
+
+Omegaexdeath, May 25, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#12
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Forest Condon
+Sleepy
+Forest Condon
+Illustrious Member
+
+    Freaking awesome. If only it contained a "allow pvp" attribute it would be completely perfect. Maybe some day I'll figure out how to add that. lol
+     
+
+Forest Condon, Jun 1, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#13
++ Quote
+Reply
+
+    Agree Agree x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Neshoba
+Relaxed
+Neshoba
+Illustrious Member
+
+    had same problem with region controller when setting 1 up you have to set a region or all controllers are wiped at restart I recommend at least a 10X10 area or so
+     
+
+Last edited: Feb 12, 2016
+Neshoba, Feb 12, 2016
+Edit
+History
+Delete
+IP
+Warn
+Report
+#14
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
