@@ -1,0 +1,361 @@
+
+Account Vaults are a shared chest between all characters on your account. This allows you to safely transfer goods between characters without having to hide them somewhere, or drop them into a house.
+
+    The command to summon your account vault only works in town.
+    Account vault will show up for 20 seconds before it disappears.
+    You can only use the command once every five minutes.
+
+
+Usage
+
+[accountvault (while in town, as stated above) 
+============
+
+
+
+    Tresdni submitted a new resource:
+
+    Account Vaults - Safely transfer goods between characters on the same account!
+
+        Account Vaults are a shared chest between all characters on your account. This allows you to safely transfer goods between characters without having to hide them somewhere, or drop them into a house.
+
+            The command to summon your account vault only works in town.
+            Account vault will show up for 20 seconds before it disappears.
+            You can only use the command once every five minutes.
+
+        I have also included a cleanup system that deletes empty account vaults every four hours....
+        Click to expand...
+
+    Read more about this resource...
+     
+
+Tresdni, Nov 18, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Like Like x 3 Winner Winner x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    Oh wow, that is just excellent!
+
+    I had the idea to make Bank box's accessible between any character on the same account, but this is a terrific idea too!
+     
+
+Dian, Nov 18, 2014
+Edit
+Delete
+IP
+Report
+#2
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    I think I saw this at work on Imperium about two years ago. Maybe not the same code, but something similar.
+    It's awesome and beats having to drop items on the ground in an immediate logout area.
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Nov 19, 2014
+Edit
+History
+Delete
+IP
+Report
+#3
++ Quote
+Reply
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Definitely not the same code, I wrote this about two years ago myself for the shard Freedom. Glad you enjoy it :)
+     
+
+Tresdni, Nov 19, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#4
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Undo Rating 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Tresdni updated Account Vaults with a new update entry:
+
+    No need for cleanup timer at all.
+
+        Vorspire pointed out a blatant fact to me this morning, smh. I've updated this system to just delete the empty box after the hide timer, instead of running a non-stop timer checking every box in the world.
+
+        Efficiency ftw.
+
+    Read the rest of this update entry...
+     
+
+Tresdni, Nov 20, 2014
+Edit
+Delete
+Warn
+Report
+#5
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Undo Rating 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    Very nice!
+     
+
+Ravenwolfe, Nov 20, 2014
+Edit
+Delete
+IP
+Report
+#6
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    I test this scripts (on justuo publish 3) by use command and put couple of items in the box but next I still received information that "you can only summon your vault once every 5 minuts". I awaiting 20 minuts, reloging between character on account and problem still exist. Same on two another accounts.
+
+    Are this DataTime lines in AccountVaultCommand.cs correct ?
+
+        if (acctv != null)
+        {
+        if (DateTime.UtcNow + TimeSpan.FromMinutes(5.0) > DateTime.UtcNow)
+        {
+        from.SendMessage("You may only summon your account vault once every five minutes.");
+        return;
+        }
+
+        acctv.Z = toZ;
+        acctv.X = toX;
+        acctv.Y = toY;
+        acctv.Map = @from.Map;
+        acctv.Visible = true;
+        acctv.DisplayTo(@from);
+        acctv.DoContainerHideTimer(acctv);
+        acctv.LastSummoned = DateTime.UtcNow;
+        }
+        Click to expand...
+
+     
+
+Last edited: Dec 25, 2014
+Fenris, Dec 25, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#7
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    That statement would always be true. I think he meant to have it:
+
+    Code:
+
+     if(acctv.LastSummoned + TimeSpan.FromMinutes(5.0) > DateTime.UtcNow)
+
+     
+
+Ravenwolfe, Dec 25, 2014
+Edit
+Delete
+IP
+Report
+#8
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    Solved. I changed line like you wrote
+
+        if (DateTime.UtcNow + TimeSpan.FromMinutes(5.0) > DateTime.UtcNow)
+
+    to
+
+        if (acctv.LastSummoned + TimeSpan.FromMinutes(5.0) > DateTime.UtcNow)
+
+    and now everything works correct.
+    Nice addon :)
+    Many thanks for your post Ravenwolfe !
+     
+
+Fenris, Dec 25, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#9
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    Glad to help!
+     
+
+Ravenwolfe, Dec 25, 2014
+Edit
+Delete
+IP
+Report
+#10
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Smh, it's always the little things. I'll update the post.
+     
+
+Tresdni, Dec 25, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#11
++ Quote
+Reply
+
+    Funny Funny x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Tresdni updated Account Vaults with a new update entry:
+
+    Fixed Time Restriction
+
+        The time restriction was broken, good catch Fenris and Ravenwolfe.
+
+    Read the rest of this update entry...
+     
+
+Tresdni, Dec 25, 2014
+Edit
+Delete
+Warn
+Report
+#12
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Joshua
+Joshua
+Renowned Member
+
+    Has anyone got this to work with 'Custom Regions in a Box' I'm not sure how to approach this one.
+     
+
+Joshua, Aug 14, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#13
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
