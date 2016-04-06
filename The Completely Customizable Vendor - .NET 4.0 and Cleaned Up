@@ -1,0 +1,426 @@
+
+    Tresdni submitted a new resource:
+
+    The Completely Customizable Vendor - .NET 4.0 and Cleaned Up - The original system by krazeykow, with tons of cleaning.
+
+        I figured it was about time to clean this system up. Removed a lot of nesting, converted foreach loops to use linq, among hundreds of other edits.
+
+        Original Author: krazeykow
+
+        Original System: http://www.runuo.com/community/threads/runu-o-2-0-rc1-rc2-the-complete-customizable-vendor.91051/
+
+    Read more about this resource...
+     
+
+Tresdni, Dec 25, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Like Like x 2 Winner Winner x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    does this update prevent the stone gump from going back to page 0 (zero) every time you click on something to view it's information page?
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Dec 25, 2014
+Edit
+Delete
+IP
+Report
+#2
++ Quote
+Reply
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    I wasn't aware of that, but I can look into it :)
+     
+
+Tresdni, Dec 25, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#3
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Döschl
+Döschl
+Super Contributor
+
+    hi,
+
+    is it known, that i cant add runic tools as a item for sell in the vendorsystem?
+
+    it would be nice if there were a solution for it.
+
+    greetings Döschl
+
+    This item can not be copied...is the message in uo, if i try to add a runic tool.
+     
+
+Döschl, Feb 16, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#4
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Hank
+No Mood
+Hank
+Super Contributor
+
+    Yet again, Thank you for sharing Tresdni! *bows*
+     
+
+Hank, Feb 16, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#5
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Döschl
+Döschl
+Super Contributor
+
+    i have to ask again: how can i add runicTools???? I want to sell runictools in this vendor, but cant add this item. Need help pls.
+
+    THNX
+    Döschl
+     
+
+Döschl, Feb 17, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#6
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Punkte
+Energetic
+Punkte
+Distinguished Member
+
+    Just to let you know, his original files had a exploit in there that can allow players to obtain any item they want on the vendor free of charge using UOSteam.
+    Not sure if this one would have had the same error, but I first recognized it on my shard before you released this.
+     
+
+Owner: UO Shadow Age
+(AoS Era Freeshard)
+www.uoshadowage.com
+Punkte, Mar 6, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#7
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Greed
+Energetic
+Greed
+Grandmaster Member
+Gold Star Member
+
+    Punkte said: ↑
+
+        Just to let you know, his original files had a exploit in there that can allow players to obtain any item they want on the vendor free of charge using UOSteam.
+        Not sure if this one would have had the same error, but I first recognized it on my shard before you released this.
+
+    What was the exploit/fix for it?
+     
+
+Greed, Mar 6, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#8
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    Not sure about that but I know you can 1) see the chest for the vendor stone below you if you do ctrl + shift but it's always out of range. 2) it may have something to do with previewing the item in the chest
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Mar 6, 2015
+Edit
+Delete
+IP
+Report
+#9
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+Punkte
+Energetic
+Punkte
+Distinguished Member
+
+    Greed said: ↑
+
+        What was the exploit/fix for it?
+
+    I'm not 100% sure what the fix was. I was handed a larger shards reward vendor script and we stripped everything they had custom and used it and it worked and prevented the exploit.
+    But I 100% know there's an exploit in it and it has to do with UOSteam, and I'm assuming it has something to do with being able to access hidden bags or something that you normally can't see with razor.
+
+    Tresdni, if you'd like the script that was given to me that fixes it, your more than welcome to try to see what was different in it compared to the original. Just let me know and I'll send it over.
+     
+
+Owner: UO Shadow Age
+(AoS Era Freeshard)
+www.uoshadowage.com
+Punkte, Mar 7, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#10
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ce Jayce
+Cynical
+Ce Jayce
+Administrator
+Staff Member
+JustUO Developer
+Gold Star Member
+
+    Thanks for the heads up on the issue Punkte - Recently had the same exploit pulled on my server.
+    Here is the updated file until Tresendi can update the main post, may not be the best fix but it's a fix.
+    I suggest all server owners using this system update it.
+     
+
+Ce Jayce, Mar 26, 2015
+Edit
+Delete
+IP
+Report
+#11
++ Quote
+Reply
+
+    Like Like x 3 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Greed
+Energetic
+Greed
+Grandmaster Member
+Gold Star Member
+
+    First, that is so great that you took the time to fix that big problem Ce Jayce, many thanks for that. Second, with your version all of my mobile reward vendors, when accessed by players, now offer the message that "The current display is invalid, please notify the staff" and consequently are unusable. Staff however can manage the vendors, but they too cannot buy anything from them as they receive the message "The current display is invalid" when they try to do so. These same messages occur whenever I spawn new mobilerewardvendors as well. Additionally the same messages occur for the stonereward vendors both new and old. I am using the JewlRewardGump for all my vendors, whether they be mobile or stone (although it does happen as well with the ClassicRewardGump).
+
+    In short, no one can purchase anything from the mobile reward vendors/stones using your changes unfortunately.
+     
+
+Last edited: Mar 26, 2015
+Greed, Mar 26, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#12
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ce Jayce
+Cynical
+Ce Jayce
+Administrator
+Staff Member
+JustUO Developer
+Gold Star Member
+
+    So there was an issue with Tresendi's cleaned up version, that stops people opening the gumps at all. I didn't realise this as I was still using the old system + the exploit fix. The new file is attached here. With the exploit fix and a tweak to Tresendi's updated code to allow the gumps to open again.
+    Hopefully Tresendi will get round to reviewing my code and updating the main post soon.
+    I also updated the file in my post above to avoid any confusion & incorrect downloads.
+
+    Thanks Greed for pointing this out.
+     
+
+Attached Files:
+
+    CompletelyCustomizableVendor.cs
+
+    File size:
+        109.2 KB
+
+    Views:
+        26
+
+Ce Jayce, Mar 27, 2015
+Edit
+Delete
+IP
+Report
+#13
++ Quote
+Reply
+
+    Like Like x 4 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Greed
+Energetic
+Greed
+Grandmaster Member
+Gold Star Member
+
+    Perfect, thank youuu CJ! :Biggrin:
+     
+
+Greed, Mar 27, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#14
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Pretty rare when I screw up that badly haha. Thanks a ton Ce Jayce for posting that. I'll update the main post now, and hopefully I'm back around now enough to actually seem like I'm alive again.
+     
+
+Tresdni, Mar 28, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#15
++ Quote
+Reply
+
+    Like Like x 4 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Tresdni updated The Completely Customizable Vendor - .NET 4.0 and Cleaned Up with a new update entry:
+
+    Ce Jayce fixed my mess ups.
+
+        Big thanks to Ce Jayce for the fixes to my mess up.
+
+    Read the rest of this update entry...
+     
+
+Tresdni, Mar 28, 2015
+Edit
+Delete
+Warn
+Report
+#16
++ Quote
+Reply
+
+    Like Like x 1 Winner Winner x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Tresdni updated The Completely Customizable Vendor - .NET 4.0 and Cleaned Up with a new update entry:
+
+    Apparently it didn't upload last time?
+
+        This is the direct file that CeJayce posted.
+
+    Read the rest of this update entry...
+     
+
