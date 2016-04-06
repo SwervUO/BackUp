@@ -1,0 +1,93 @@
+This is just like any skill ball really, except it's smarter. It automatically adds skills based on which expansion you are running.
+
+I put in extra protection that others don't have:
+
+    It won't let you use it unless it's in your backpack.
+    It won't let you open the gump, and then move it out of your backpack.
+    Deletes after use.
+    Easy to find how many choices it gives you, and what to set the skills at (default: 7 skills at 100.0.)
+    Easy to comment out skills it includes, and it won't leave gaps in the gump.
+
+Enjoy :)
+
+=============
+
+    Tresdni submitted a new resource:
+
+    Tome of Character Development (Yet Another Skill Ball) - An optimized and smarter skill ball.
+
+        This is just like any skill ball really, except it's smarter. It automatically adds skills based on which expansion you are running.
+
+        I put in extra protection that others don't have:
+
+            It won't let you use it unless it's in your backpack.
+            It won't let you open the gump, and then move it out of your backpack.
+            Deletes after use.
+            Easy to find how many choices it gives you, and what to set the skills at (default: 7 skills at 100.0.)
+            Easy to comment out skills it includes....
+
+        Click to expand...
+
+    Read more about this resource...
+     
+
+Tresdni, Nov 22, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    Nice, I've always wondered why no one does these with an expansion check!
+     
+
+Ravenwolfe, Nov 23, 2014
+Edit
+Delete
+IP
+Report
+#2
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Tresdni updated Tome of Character Development (Yet Another Skill Ball) with a new update entry:
+
+    Added the missing base AddNameProperties.
+
+        It will now show it's name and loot type correctly.
+
+    Read the rest of this update entry...
+     
+
+Tresdni, Nov 23, 2014
+Edit
+Delete
+Warn
+Report
+#3
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
