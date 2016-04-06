@@ -1,0 +1,677 @@
+AAAAARRRRRRR MATEY that's right you will be chased around by a ship full of pirates..
+Credit goes to some one was no name in file so not sure who made it.
+
+Just Updated it to work with JustUO pub2
+
+Its a Easy Drag and Drop System. 
+=========
+
+Forum Discussion:
+
+
+
+    Dragon Slayer submitted a new resource:
+
+    Pirate Ship and Pirates - Pirates can chase players around on water
+
+        AAAAARRRRRRR MATEY that's right you will be chased around by a ship full of pirates..
+        Credit goes to some one was no name in file so not sure who made it.
+
+        Just Updated it to work with JustUO pub2
+
+        Its a Easy Drag and Drop System.
+
+    Read more about this resource...
+     
+
+Dragon Slayer, Nov 20, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Like Like x 5 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Talshani
+Thinking
+Talshani
+Administrator
+Staff Member
+World Builder
+
+    Love it!
+     
+
+Talshani, Nov 20, 2014
+Edit
+Delete
+IP
+Report
+#2
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+gametec
+Happy
+gametec
+Administrator
+
+    Yep a name was associated with this... Sythen... aka me: http://www.runuo.com/community/thre...uo-2-0-callador2ks-ml-svn.100407/#post-830462
+     
+
+gametec, Dec 17, 2014
+Edit
+Delete
+IP
+Report
+#3
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    sneaky sneaky!
+     
+
+Dian, Dec 18, 2014
+Edit
+Delete
+IP
+Report
+#4
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    good glad to see some one is finaly replaying to the threads and saying its mine its mine.....
+
+    Just Joking
+
+    well its good there is the link to the real one but one I posted is the old one I got it from runuo 1.0 that was still in german I think so I don't think this one was your script I think it was hazaans.. but your post leads to a more updated version. after reading your post at runuo I found out hazaan was creator reason I said hazaan lol
+     
+
+Dragon Slayer, Dec 18, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#5
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    lol, I had that german version too
+     
+
+Dian, Dec 18, 2014
+Edit
+Delete
+IP
+Report
+#6
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    Also you should repost your version here
+     
+
+Dragon Slayer, Dec 18, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#7
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+jamesreg1973
+jamesreg1973
+Illustrious Member
+
+    Got this error I remember this script from years ago I don't think it is actully drag and drop I think there was a few edits that had to go with it.
+    here is error I am getting.
+
+    Code:
+
+    Errors:
+    + Custom Systems/Piratesandship/ShipsPirateCaptian.cs:
+        CS0246: Line 121: The type or namespace name 'Pirate' could not be found (ar
+    e you missing a using directive or an assembly reference?)
+        CS0246: Line 121: The type or namespace name 'Pirate' could not be found (ar
+    e you missing a using directive or an assembly reference?)
+    Scripts: One or more scripts failed to compile or no script files were found.
+
+     
+
+jamesreg1973, Jan 26, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#8
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    nope that is untrue it is drag and drop
+
+    you need to go look at the script on line 121 you will see what it is calling if I am right that is the npc pirate its calling
+
+    no edits was ever needed for this system to work
+     
+
+Dragon Slayer, Jan 26, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#9
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+jamesreg1973
+jamesreg1973
+Illustrious Member
+
+    Is there supposed to be an NPC pirate in the regular server I have a fresh copy of playuo update 3 and it is saying
+    The type or namespace name 'Pirate' could not be found
+     
+
+jamesreg1973, Jan 26, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#10
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    I looked at script its post to call the shipspirate that comes with the package I forgot to change the name in the shipspiratecaptain.cs change that line to call shippirate.cs
+     
+
+Dragon Slayer, Jan 26, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#11
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    this is also a really old script some one posted said there is a updated version at runuo I would check that out
+     
+
+Dragon Slayer, Jan 26, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#12
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+gametec
+Happy
+gametec
+Administrator
+
+    Just be patient and I'll update the system in a few weeks. I have to migrate all my systems over here anyway.
+     
+
+gametec, Jan 26, 2015
+Edit
+Delete
+IP
+Report
+#13
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+redbeard
+Inspired
+redbeard
+Renowned Member
+
+    This never worked well spawning from a spawner (will not respawn or some other issues can't remeber). The ship only moves if a PM is in LOS, and the sinking portion is cool but I would like to see the ability to commandeer the ship ( killing a dude doesn't sink a ship), perhaps have the key to the ship drop on the pirate captain. UO has badly needed this addition like old ultimas brigands, orcs, pirates, but they need to be more realistic, they should try to board your vessel or bring ship to shore and fight PM's on the land. (this was how a poor avatar acquired a ship in the original games) The pirates should also have an Opposition Group something like Pirates oppose Sea Creatures. Krakens like to destroy ships all sea going creatures would be hostile to any ships.
+    Just a suggestion since this novelty has been resurrected several times with very little improvement or additions.
+     
+
+redbeard, Feb 1, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#14
++ Quote
+Reply
+
+    Agree Agree x 3 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+gametec
+Happy
+gametec
+Administrator
+
+    Well technically it hasn't been improved several times...lol. The original author, Haazen, was German and his script was in German; (From My Original Thread: http://www.runuo.com/community/threads/pirates-their-back-enjoy-runuo-2-0-callador2ks-ml-svn.100407/)
+
+    I just want everyone to keep in mind that the official Broadsword, formally EA, commercial Ultima Online servers have been borrowing ideas and code from this community for years, marketing them, and re-releasing updated, newer versions, of them with their new expansions; this script is no exception to that rule. Check out the High Seas expansion and tell me you don't notice the similarities. UO had nothing remotely like that before this script was posted on RunUO; that said, yes this script can be improved, and until I get around to it you all are welcome to try your hand in doing so ;)
+
+    So looking at it what needs to change:
+    [x] LOS?! - Well the pirates were never meant to sail the seas on their own as they do on EA/OSI/Broadsword. I didn't edit them this way because, at the time, I didn't have the know-how to do so. I do like the idea and maybe this will be a future update.
+    [x] Taking over a pirate ship?! - I think the code to do so is actually in the scripts, but for some reason the system never worked so instead I just made things to when you kill the pirate captain the boat sinks. I may change this and I may not. It depends on my skill level.
+    [x] The Opposition Groups?! - I really like this idea and it's so easy to do; there is an Opposition.cs somewhere in your Scripts/ folder. Add a new entry.
+    [x] Ship Boarding?! - This also can be done with a little editing. Remember the PirateCaptain.cs spawns his crew. You can have the crew spawn both on the PM boat as well as on the pirate ship to simulate this; I didn't have the skill at the time to implement this.
+
+    For the most part there is a common theme with the above... my skill level. I didn't write the script. I hacked and slashed (aka Frankensteined) the script. What I did was make it work for RunUO 2.0 and the Ultima Gold Client; it was then reposted, by me, in 2010. Right now to make changes to this script will take me a while; I'm caught up with other projects. Nothing I post is closed source though, all scripts created to work with the current server repositories on the internet are, by default, under the GNU GPL Version 2.0 (because they are all derivatives of the original RunUO 1.0 SVN). That means this community is more than welcome to obtain, edit, and make changes to those scripts, at no charge to you, despite what some of the developers would have you think. If developers say otherwise then they are in violation of the license agreement.
+
+    I'm more than willing to help, but as I stated above, I have a certain skill level and I'm not sure where it places me yet. I have confidence in my work, but I am no coding genius by any means. I run into difficulties quite a bit which requires endless hours of research; most people just don't have the time and I'm no exception to that either. All of this being what it is, if you have C# knowledge and you'd like to help me get these changes done then I'll be more than happy to code the changes for you guys :)
+
+    As of late I've forgotten which scripts are involved anyway. I have to make heads and tails out of the stuff I uploaded before I can begin anything. lol
+     
+
+gametec, Feb 1, 2015
+Edit
+Delete
+IP
+Report
+#15
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Talshani
+Thinking
+Talshani
+Administrator
+Staff Member
+World Builder
+
+    The also have used building ideas and custom art. I just wish they would take some decorating advice from us. Their maps are unfinished and boring! TerMur has the potential to be a really cool map. If they would finish the map work and do more deco.
+     
+
+Talshani, Feb 1, 2015
+Edit
+Delete
+IP
+Report
+#16
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tukaram
+Tukaram
+Super Contributor
+
+    I was messing around with a chasing pirate ship the other day (not sure if it was this one, or from RunUO) and they did board my ship. If they come alongside one of the 'pirate crew' teleports to the ship. Not usre how many would teleport as I moved away ha ha. fun fight though. And the sinking is pretty cool too.
+     
+
+Tukaram, Feb 2, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#17
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Hackiem
+Confused
+Hackiem
+Renowned Member
+
+    Dragon Slayer said: ↑
+
+        Dragon Slayer submitted a new resource:
+
+        Pirate Ship and Pirates - Pirates can chase players around on water
+
+        Love the pirates, but having a problem with the ShipsPirateCaptian.cs It seams to have a error at line 121..
+        " cs0246: Line !21: The type or namespace name 'Pirate' could not be found (are you missing a using directive or an assembly reference?)"
+        Gives that to me twice but with the same words.
+        Read more about this resource...
+        Click to expand...
+
+     
+
+Hackiem, Mar 1, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#18
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+m309
+Lurking
+m309
+Moderator
+Moderator
+
+    :confused:
+     
+
+m309, Mar 2, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#19
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Talow
+Thinking
+Talow
+Grandmaster Member
+
+    Is this the one where they chase and the ship sinks when they die? That is cool and all but they leave no loot and it can be a pain to kill them, all risk, no reward?
+
+    if that's the case I'd suggest a floating chest where the ship went down.
+     
+
+Daeus said: ↑
+
+    This got a little tricky! But it's all working fine. I would not say it's "Drag n' Drop" ready, so don't just toss it in and expect it to play nice!
+
+If at first you don't win... THAT IS WHY GOOGLE WAS MADE!
+Talow, Mar 2, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#20
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+jamesreg1973
+jamesreg1973
+Illustrious Member
+
+    that floating chest thing is a good idea think the guy who did this is going to update it for highseas and stuff soon but kinda one of those things that really needs to wait till all the high seas boats are working and that might be awhile still
+     
+
+jamesreg1973, Mar 2, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#21
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Hackiem
+Confused
+Hackiem
+Renowned Member
+
+    If its a player ship went down maby if you find one and pick it up the Pirate ship finds you. LoL
+     
+
+Hackiem, Mar 5, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#22
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+redbeard
+Inspired
+redbeard
+Renowned Member
+
+    Booty with a quest to deliver it to a certain port in exchange for loot while you try to deliver chance to be spawned on increases as you near the appropriate port would be kewl
+
+    call it "A Precious Cargo" quest.... lol just spitballin'
+     
+
+redbeard, Mar 5, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#23
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tukaram
+Tukaram
+Super Contributor
+
+    Can you make the Capt spawn an xml spawner on death? If so, you can add any items or quest you want...
+     
+
+Tukaram, Mar 5, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#24
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Hackiem
+Confused
+Hackiem
+Renowned Member
+
+    OK, This is the problem file. I just can not get it to work. really like the pirate ship, and the pirates attack but I had to take the captain out to get it to compile
+    Error:
+    " cs0246: Line !21: The type or namespace name 'Pirate' could not be found (are you missing a using directive or an assembly reference?)"
+     
+
+
+
+    You might try this one. I just realized I am using a completely different package (I got mine form an 'Invasion system" pack). I am using the 'chasing pirate' folder. It was just drag & drop for me... good luck :)
+     
+
+Attached Files:
+
+    Pirates.zip
+
+    File size:
+        24.5 KB
+
+    Views:
+        19
+
+Tukaram, Mar 5, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#26
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+redbeard
+Inspired
+redbeard
+Renowned Member
+
+    Hackiem said: ↑
+
+        OK, This is the problem file. I just can not get it to work. really like the pirate ship, and the pirates attack but I had to take the captain out to get it to compile
+        Error:
+        " cs0246: Line !21: The type or namespace name 'Pirate' could not be found (are you missing a using directive or an assembly reference?)"
+
+    The captain spawns helpers (other pirates). you need a pirate script its trying to spawn a mobile named 'Pirate'
+     
+
+redbeard, Mar 6, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#27
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Hackiem
+Confused
+Hackiem
+Renowned Member
+
+    I took a copy of the shipsPirates script and removed the "ships" everywhere I could find it and it now works.
+    Thank you, its perfect for my seas.
+     
+
+Hackiem, Mar 6, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#28
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Hackiem
+Confused
+Hackiem
+Renowned Member
+
+    Tukaram said: ↑
+
+        You might try this one. I just realized I am using a completely different package (I got mine form an 'Invasion system" pack). I am using the 'chasing pirate' folder. It was just drag & drop for me... good luck :)
+
+    Will sea if that one works better then the shipsPirates that I stripped the Ships from all the ShipsPirate lines.
+     
+
+Hackiem, Mar 6, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#29
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Nuggzy
+Nuggzy
+Renowned Member
+
+    In the ShipsPiratesCaptain.cs on line 121 change both instaces of Pirate to ShipsPirate and it will compile just fine. 
