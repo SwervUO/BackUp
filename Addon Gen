@@ -1,0 +1,161 @@
+I cleaned up the system a good bit.
+
+    Removed redundant "using" namespaces.
+    Used linq where possible.
+    Better deed naming! Instead of "TableSaw", it will say "a table saw deed".
+    Use of "an" instead of "a" prefix, if the first letter is a vowel.
+    Generates to directory "AddonGenerator" by default now, instead of "TheBox".
+
+===============
+
+
+
+    Tresdni submitted a new resource:
+
+    Arya's Addon Generator - Updated - Better 4.0 code, cleaner code, and better deed naming.
+
+        I cleaned up the system a good bit.
+
+            Removed redundant "using" namespaces.
+            Used linq where possible.
+            Better deed naming! Instead of "TableSaw", it will say "a table saw deed".
+            Use of "an" instead of "a" prefix, if the first letter is a vowel.
+            Generates to directory "AddonGenerator" by default now, instead of "TheBox".
+
+        Click to expand...
+
+    Read more about this resource...
+     
+
+Tresdni, Nov 23, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    Hey Tres, the Item list has increased since you updated this. It is now 39599
+     
+
+Dian, Dec 8, 2014
+Edit
+Delete
+IP
+Report
+#2
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Tresdni updated Arya's Addon Generator - Updated with a new update entry:
+
+    Increased itemid list max.
+
+        The list was at 36653 or so, and as Dian said, it should now be 39599.
+
+    Read the rest of this update entry...
+     
+
+Tresdni, Dec 25, 2014
+Edit
+Delete
+Warn
+Report
+#3
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    Tresdni - It didn't update the resource for some reason, I'm still getting the old version when I download.
+     
+
+Ravenwolfe, Dec 25, 2014
+Edit
+Delete
+IP
+Report
+#4
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Tresdni
+Paranoid
+Tresdni
+Illustrious Member
+JustUO Developer
+
+    Tresdni updated Arya's Addon Generator - Updated with a new update entry:
+
+    Last update didn't upload.
+
+        Hopefully it uploads this time.
+
+    Read the rest of this update entry...
+     
+
+Tresdni, Dec 25, 2014
+Edit
+Delete
+Warn
+Report
+#5
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Ravenwolfe
+Fine
+Ravenwolfe
+Administrator
+Staff Member
+JustUO Developer
+
+    Works now!
+     
+
+Ravenwolfe, Dec 25, 2014
+Edit
+Delete
+IP
+Report
+#6
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
