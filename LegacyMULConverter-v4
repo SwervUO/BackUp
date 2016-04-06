@@ -1,0 +1,297 @@
+Here is the LegacyMULConverter-v4 program in case anyone needs it. It's command line based. I wrote 2 batch files 1) to extract UOP files to MUL files, and 2) to convert MUL files to UOP files. That way I just put the files I want to work with into the "temp" folder that I created under the program folder and then click on the batch file I want to use. The program will look in the folder you specify and use any MUL or UOP files it finds and then process them how you tell it via parameters. It's pretty easy to setup and use, just look at the readme.txt file it explains it all.
+
+This is not my software but I offer it in the original RAR file with no content changes what so ever. 
+
+==============
+
+
+
+    Carl Hamilton submitted a new resource:
+
+    LegacyMULConverter-v4 - This program converts UOP 2 MUL and MUL 2 UOP files
+
+        Here is the LegacyMULConverter-v4 program in case anyone needs it. It's command line based. I wrote 2 batch files 1) to extract UOP files to MUL files, and 2) to convert MUL files to UOP files. That way I just put the files I want to work with into the "temp" folder that I created under the program folder and then click on the batch file I want to use. The program will look in the folder you specify and use any MUL or UOP files it finds and then process them how you tell it via parameters. It's...
+
+    Read more about this resource...
+     
+
+Carl Hamilton, Nov 2, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Nasak
+Nasak
+Renowned Member
+
+    I need help with setting this up.. bc nothing else works
+     
+
+Nasak, Mar 21, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#2
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Carl Hamilton
+Fine
+Carl Hamilton
+Super Contributor
+
+    Its all explained how to use it in the "readme" file that is in the .rar file.
+     
+
+Carl Hamilton, Mar 21, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#3
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Nasak
+Nasak
+Renowned Member
+
+    I read this... and it is not very transparent in the readme file... when i d lick the EXE it just pops op and closes right away
+     
+
+Nasak, Mar 21, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#4
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Carl Hamilton
+Fine
+Carl Hamilton
+Super Contributor
+
+    That's because you don't double click the EXE file to run it, and if you READ the "readme" file it clearly states:
+
+    Extracting all UOP files in a directory:
+    LegacyMULCL.exe -x <path>
+    Repacking all MUL files in a directory:
+    LegacyMULCL.exe <path>
+    Opening the syntax instructions:
+    LegacyMULCL.exe /?
+
+    you need to open a DOS window, and then type whatever one of the 3 options above you wish to accomplish. you need to enter a command and/or path location after the EXE. You can either type the command each time you wish to use the program, or you can create a .BAT (batch file) containing the command line parameters and path so that you just need to run the .BAT file to have the program run properly.
+     
+
+Carl Hamilton, Mar 21, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#5
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Undo Rating 
+
+Nasak
+Nasak
+Renowned Member
+
+    ohhh i didnt know i had to open a DOS window manually
+
+    appreciate the help -- life saver
+     
+
+Nasak, Mar 22, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#6
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Nasak
+Nasak
+Renowned Member
+
+    I got it to run but is says access denied on all twelve counts... =(( NVMD -- RAN IN ADMIN
+
+    THANKS AGAIN!!
+     
+
+Last edited: Mar 22, 2015
+Nasak, Mar 22, 2015
+Edit
+History
+Delete
+IP
+Warn
+Report
+#7
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Nasak
+Nasak
+Renowned Member
+
+    Hey - i got it to unpack and was able to use mulpatcher and i changed two gumps -- but i cannot pack it back... it says that the files already exist... ? sorry for being annoying lol but
+     
+
+Nasak, Mar 23, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#8
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Nasak
+Nasak
+Renowned Member
+
+    Figured it out again!! lol Had to delete the old UOP files
+     
+
+Nasak, Mar 23, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#9
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    Carl Hamilton said: ↑
+
+        That's because you don't double click the EXE file to run it, and if you READ the "readme" file it clearly states:
+
+        Extracting all UOP files in a directory:
+        LegacyMULCL.exe -x <path>
+        Repacking all MUL files in a directory:
+        LegacyMULCL.exe <path>
+        Opening the syntax instructions:
+        LegacyMULCL.exe /?
+
+        you need to open a DOS window, and then type whatever one of the 3 options above you wish to accomplish. you need to enter a command and/or path location after the EXE. You can either type the command each time you wish to use the program, or you can create a .BAT (batch file) containing the command line parameters and path so that you just need to run the .BAT file to have the program run properly.
+        Click to expand...
+
+    Hi Carl,
+    I'm having some trouble with this and not sure why
+    I can open the command prompt under Admin and everything but when I enter: LegacyMULCL.exe -x C:\Program Files(and the rest of it) I get this: Directory 'C:\Program' does not exist!
+
+    I tried this just to be sure: LegacyMULCL.exe -x <C:\Program Files> and of course I get this: The syntax of the command is incorrect.
+
+    So, I'm lost.
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Apr 3, 2015
+Edit
+Delete
+IP
+Report
+#10
++ Quote
+Reply
+Nasak
+Nasak
+Renowned Member
+
+    must put the directory in quotes
+     
+
+Nasak, Apr 3, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#11
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Undo Rating 
+
+zerodowned
+Spaced
+zerodowned
+Administrator
+Moderator
+JustUO Developer
+Gold Star Member
+Et Cetera, Et Cetera
+
+    Nasak said: ↑
+
+        must put the directory in quotes
+
+    Thank you
+     
+
+//avatar art used with permission by julien148
+C# tutorials - http://www.playuo.org/emu/index.php?threads/c-tutorials.236/
+BB Codes for posts - http://www.playuo.org/emu/index.php?help/bb-codes
+My Stuff on Github
+zerodowned, Apr 3, 2015
+Edit
+Delete
+IP
+Report
+#12
++ Quote
+Reply
