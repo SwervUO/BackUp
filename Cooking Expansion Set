@@ -1,0 +1,2778 @@
+
+Version 3.0
+Added WaxCrafting by Manu
+Added Cyberspud Apiculture System
+Left old Apiculture System in just turned off.
+Removed Defgrilling.cs no longer needed
+Moved some menus around in defcooking.cs
+
+I also Provided
+Cooking Expansion Set Setup.txt please read for using this system
+
+This is a heavy mod to JustUO Package But I will always support it.
+
+Any questions or problems please post ill reply as fast as I can.
+
+I also Added a Doc folder where you will find all docs needed plus Pictures of the Apiculture System 
+
+==========
+
+Forum Discussion:
+
+
+
+    Dragon Slayer submitted a new resource:
+
+    Cooking Expansion Set - This system has what normal UO doesnt Have for those Chefs
+
+        Version 3.0
+        Added WaxCrafting by Manu
+        Added Cyberspud Apiculture System
+        Left old Apiculture System in just turned off.
+        Removed Defgrilling.cs no longer needed
+        Moved some menus around in defcooking.cs
+
+        I also Provided
+        Cooking Expansion Set Setup.txt please read for using this system
+
+        This is a heavy mod to JustUO Package But I will always support it.
+
+        Any questions or problems please post ill reply as fast as I can.
+
+        I also Added a Doc folder where you will find all docs needed plus Pictures of...
+        Click to expand...
+
+    Read more about this resource...
+     
+
+Dragon Slayer, Nov 1, 2014
+Edit
+Delete
+Warn
+Report
+#1
++ Quote
+Reply
+
+    Like Like x 2 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Carl Hamilton
+Fine
+Carl Hamilton
+Super Contributor
+
+    Cool. Very nice system!
+     
+
+Carl Hamilton, Nov 4, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#2
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Talshani
+Thinking
+Talshani
+Administrator
+Staff Member
+World Builder
+
+    That is so cool. Do you make candles with it or just honey? I use to love growing plants but the every day having to log on and water and add potions really wore my interest down. Do the bees have to be cared for every day? I am sure you can change how long in the scripts but was just curious since I am not a scripter :) Oh BTW my real name means Honey Bee so I love bees. :)
+    So I will be making sure Dian grabs this one
+     
+
+Talshani, Nov 4, 2014
+Edit
+History
+Delete
+IP
+Report
+#3
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    in the scripts you can change the timers but I think its 14 days I think lol but dian can look in script and check..
+     
+
+Dragon Slayer, Nov 4, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#4
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    Dragon Slayer updated Cooking Expansion Set with a new update entry:
+
+    Very Big UPDATE
+
+        This is a HUGE update to the coming expansion You will have to delete old one but don't have to change any edits you made for old one as there still being used.. I just added more edits you will need. so get ready to blow your socks off and love this package I been testing it for couples days.
+
+        Version 4.0
+        Added Ranch System with new AI
+        Added Garden by DarkJustin
+        Added SeedBox For OSI Plant Seeds
+        Added Farmers Seed Box for all the Harvestable Plant Seeds Version 1
+        Added Korbas's wild crop...
+        Click to expand...
+
+    Read the rest of this update entry...
+     
+
+Dragon Slayer, Nov 4, 2014
+Edit
+Delete
+Warn
+Report
+#5
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    Hello. Very valuable expansion. Ar your latest version compatible with justuo pub 2 files?
+     
+
+Fenris, Nov 4, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#6
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    Yep I'm running lastest pub any errors u get I will help u with just make sure ur reading the read me
+     
+
+Dragon Slayer, Nov 5, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#7
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    Great :) We must try it on our shard :)
+     
+
+Fenris, Nov 5, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#8
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    Hey in food.cs u wil need to remove the sickness part I forgot too lol I use sickness system hehe
+     
+
+Dragon Slayer, Nov 5, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#9
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    When I get homw ill upload a new version with sickness removed that was my bad hehe
+     
+
+Dragon Slayer, Nov 5, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#10
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    Ok. Thanks :)
+     
+
+Fenris, Nov 5, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#11
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    Thats the challenge for me, too.. for releasing my scripts. Nearly everything I create is tied into my custom map or other systems that I have, that are not standard.. Its hard to get myself to create two versions.. just to release one. :-/
+
+    Definitely going to have a look at this though, good stuff man :)
+     
+
+Dian, Nov 5, 2014
+Edit
+Delete
+IP
+Report
+#12
++ Quote
+Reply
+
+    Agree Agree x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    Dragon Slayer updated Cooking Expansion Set with a new update entry:
+
+    Forgot to release food without sickness
+
+        just forgot to release food.cs without sickness system.
+
+    Read the rest of this update entry...
+     
+
+Dragon Slayer, Nov 5, 2014
+Edit
+Delete
+Warn
+Report
+#13
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    understand that dian hehe why I started to do readmes with just the edits because my playermobile and bsecreature and baseai scripts have nothing but tons of custom stuff. but I hope you enjoy this system Dian if you have the bounty system in this can be used with the ranching system I think the ranch system will go great with your custom shards so players can raise animals
+     
+
+Dragon Slayer, Nov 5, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#14
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    Neither at moment, have not had time to examine them, but been meaning to look em over, yea :)
+     
+
+Dian, Nov 5, 2014
+Edit
+Delete
+IP
+Report
+#15
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    Dragon Slayer updated Cooking Expansion Set with a new update entry:
+
+    Fixed Nasty Crash Plus New Features V 5.0
+
+        Version 5.0
+        Added Chefs Outfit Set
+        Added Distillery You will have to check docs as it will need added to your craftitem.cs and craftsystem.cs
+        Changed witchcraft tool to book instead of cualdon so its Witch's Book Of Food Crafts
+        Changed Defwitchcraft to Use cualdon for heat source
+        Fixed Cauldrons to not crash in craftitem.cs had bad id replaced with right item ids.
+
+        As always read the docs and delete old system because this update changes stuff again :) make sure you update your craftitem.cs and...
+        Click to expand...
+
+    Read the rest of this update entry...
+     
+
+Dragon Slayer, Nov 6, 2014
+Edit
+Delete
+Warn
+Report
+#16
++ Quote
+Reply
+
+    Like Like x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    Here is some duplicate records between you latest expansion scripts and justuo files (for example in scripts/items/food/bowls.cs)
+
+        Scripts: Compiling C# scripts...Failed with: 2 errors, 0 warnings
+        Errors:
+        + Items/Food/Bowls.cs:
+        CS0101: Line 5: The namespace `Server.Items' already contains a definition for `EmptyWoodenBowl'
+        CS0101: Line 34: The namespace `Server.Items' already contains a definition for `EmptyPewterBowl'
+        CS0101: Line 63: The namespace `Server.Items' already contains a definition for `WoodenBowlOfCarrots'
+        CS0101: Line 103: The namespace `Server.Items' already contains a definition for `WoodenBowlOfCorn'
+        CS0101: Line 143: The namespace `Server.Items' already contains a definition for `WoodenBowlOfLettuce'
+        CS0101: Line 183: The namespace `Server.Items' already contains a definition for `WoodenBowlOfPeas'
+        CS0101: Line 223: The namespace `Server.Items' already contains a definition for `PewterBowlOfCarrots'
+        CS0101: Line 263: The namespace `Server.Items' already contains a definition for `PewterBowlOfCorn'
+        CS0101: Line 303: The namespace `Server.Items' already contains a definition for `PewterBowlOfLettuce'
+        CS0101: Line 343: The namespace `Server.Items' already contains a definition for `PewterBowlOfPeas'
+        CS0101: Line 383: The namespace `Server.Items' already contains a definition for `PewterBowlOfPotatos'
+        CS0101: Line 424: The namespace `Server.Items' already contains a definition for `EmptyWoodenTub'
+        CS0101: Line 454: The namespace `Server.Items' already contains a definition for `EmptyPewterTub'
+        CS0101: Line 483: The namespace `Server.Items' already contains a definition for `WoodenBowlOfStew'
+        CS0101: Line 523: The namespace `Server.Items' already contains a definition for `WoodenBowlOfTomatoSoup'
+        + Mobiles/Animals/Bovine/Cow.cs:
+        CS0101: Line 6: The namespace `Server.Mobiles' already contains a definition for `Cow'
+        Scripts: One or more scripts failed to compile or no script files were found.
+        Click to expand...
+
+    Do you also updated the installation guide?
+     
+
+Last edited: Nov 10, 2014
+Fenris, Nov 10, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#17
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    yeah I keep it updated
+
+    here at the top
+
+    First you will need to turn off all this files in your scripts/items/food
+    Asian.cs beverage.cs beverageempty.cs cookablefoods.cs
+    cooking.cs foods.cs fruits.cs Vegetables.cs
+
+    I just noticed I forgot to say bowls.cs thank you for pointing that out ill add that in.
+    and I noticed I forgot to say cow.cs in the ranch installation file thanks again
+
+    but yeah I try my best to make sure the setup readme explains it all I know its a lot to take in at once but im so happy that some one is replying :) least I know its being used.. again find any other misses I missed just post or any bug or features you would like to see
+
+    You will see this in my next version
+
+    Version 6.0
+    split more crops up into seed, seedlings, crop instead having all one file.
+    Fixed Ranch Installation Instructions thanks to Fenris
+    Fixed Cooking set up Guide thanks to Fenris
+
+    I always try to give credit don't matter how small the fix is
+     
+
+Last edited: Nov 10, 2014
+Dragon Slayer, Nov 10, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#18
++ Quote
+Reply
+
+    Like Like x 3 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    Dragon Slayer updated Cooking Expansion Set with a new update entry:
+
+    Update 6.0
+
+        Version 6.0
+        Split more crops up into seed, seedlings, crop instead having all one file.
+        Fixed Ranch Installation Instructions thanks to Fenris.
+        Fixed Cooking set up Guide thanks to Fenris.
+        Added Steam Powered Beverage Maker Needed to create Coffee, Cocoa, Tea and Cider.
+        Updated Cooking Set up Guide with new Steam Powered Beverage Maker.
+        Added Grinder to Gind up Coffee Beans and Cocoa Beans to make Bag of Coffee and Bag of Cocoa both are required in making coffee and cocoa kegs.
+        Fixed some skill...
+        Click to expand...
+
+    Read the rest of this update entry...
+     
+
+Dragon Slayer, Nov 23, 2014
+Edit
+Delete
+Warn
+Report
+#19
++ Quote
+Reply
+
+    Winner Winner x 1 List 
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    Look at this please. Are you got any other custom addon on your shard (for example harpy modification)?
+
+        Errors:
+        + Custom Systems/Cooking Expansion Set/DefCrafts/DefCooking.cs:
+        CS0246: Line 756: The type or namespace name `HarpyEggs' could not be found. Are you missing an assembly reference?
+        Scripts: One or more scripts failed to compile or no script files were found.
+
+     
+
+Last edited: Nov 23, 2014
+Fenris, Nov 23, 2014
+Edit
+History
+Delete
+IP
+Warn
+Report
+#20
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    Sorry for got to include the harpy eggs
+     
+
+Dragon Slayer, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#21
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    If I remember good I found harpy eggs custom script on runuo long time ago, but I do not have it now. My You publish your file here please?
+     
+
+Fenris, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#22
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dian
+Devilish
+Dian
+Administrator
+
+    He will update it.
+    I wouldnt expect it until the evening though, he works days and is only able to respond with text replies here and there from work on his breaks.
+    :)
+     
+
+Dian, Nov 24, 2014
+Edit
+Delete
+IP
+Report
+#23
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Dragon Slayer
+Breezy
+Dragon Slayer
+Grandmaster Member
+
+    they harpy eggs came from a quest I made I added to my cooking scripts almost forgot to comment it out lol if you go to harpy eggs
+
+    in that script and look should say harpyeggsoup you can just comment it out to get it to compile thanks dian its hard to get back to msgs when at work all day.
+     
+
+Dragon Slayer, Nov 24, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#24
++ Quote
+Reply
+
+    Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+Fenris
+Sunshine
+Fenris
+Super Contributor
+
+    Ok I comment harpyeggsoup but unfortunately this is not the end of problems:
+
+        Warnings:
+        + Custom Systems/Cooking Expansion Set/Farming/Crops/Grasses/Sugarcane/SugarcaneCrop.cs:
+        CS0114: Line 11: `Server.Items.Crops.SugarcaneSeed.CanGrowSand' hides inherited member `Server.Items.Crops.BaseCrop.CanGrowSand'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+        + Custom Systems/Cooking Expansion Set/Ranch/BaseAnimal.cs:
+        CS0114: Line 1541: `Server.Mobiles.BaseAnimal.Asleep()' hides inherited member `Server.Mobile.Asleep'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+        + Custom Systems/Cooking Expansion Set/Mobiles/Animals/Goat.cs:
+        CS0114: Line 113: `Server.Mobiles.Goat.VegetableFood(Server.Item)' hides inherited member `Server.Mobiles.BaseAnimal.VegetableFood(Server.Item)'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+        + Custom Systems/Cooking Expansion Set/Garden/GardenDeed.cs:
+        CS0162: Line 135: Unreachable code detected
+        + Custom Systems/Cooking Expansion Set/Garden/SecureGarden.cs:
+        CS0162: Line 111: Unreachable code detected
+        + Custom Systems/Cooking Expansion Set/Foods/Container Food/ContainerFood.cs:
+        CS0649: Line 10: Field `Server.Items.ContainerFood.m_Poisoner' is never assigned to, and will always have its default value `null'
+        CS0649: Line 11: Field `Server.Items.ContainerFood.m_Poison' is never assigned to, and will always have its default value `null'
+        Scripts: One or more scripts failed to compile or no script files were found.
+        Click to expand...
+
+     
+
+Fenris, Nov 27, 2014
+Edit
+Delete
+IP
+Warn
+Report
+#25
++ Quote
+Reply
+
+
+
+
+        Seems like those are just warnings, not going to for certain cause trouble, but is saying there are some code areas that do need attention and cleaned up
+         
+
+    Dian, Nov 27, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #26
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Yap. But unfortunately I cannot compile the server with these warnings.
+         
+
+    Last edited: Nov 27, 2014
+    Fenris, Nov 27, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #27
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        really? Warnings should not prevent the compilation.
+         
+
+    Dian, Nov 27, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #28
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        those are all warnings they can not hurt the server
+         
+
+    Dragon Slayer, Nov 27, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #29
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        I have same warnings but my server compiled fine
+         
+
+    Dragon Slayer, Nov 27, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #30
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        ill have most of them all cleaed up next release
+
+        okay there has to be more then warnings showing on your screen for server not to compile I have thousands of warnings not from this system but others I compile fine..
+         
+
+    Last edited: Nov 27, 2014
+    Dragon Slayer, Nov 27, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #31
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        I implement 6.0 packet on latest fresh JustUO server (working and properly compiled) with our Mono but We still got a problem. Same on version 5.0 :(. But as I wrote clean JustUO server and server + our customs (without Your expansion) starts without such problems.
+
+            Scripts: Compiling C# scripts...ScriptCompiler: : ../opt/Server/JustUO.exe (Location of the symbol related to previous warning)
+            Finished with: 0 errors, 14 warnings
+            Warnings:
+            + Custom Systems/Cooking Expansion Set/Farming/Crops/Grasses/Sugarcane/SugarcaneCrop.cs:
+            CS0114: Line 11: `Server.Items.Crops.SugarcaneSeed.CanGrowSand' hides inherited member `Server.Items.Crops.BaseCrop.CanGrowSand'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+            + Custom Systems/Cooking Expansion Set/Ranch/BaseAnimal.cs:
+            CS0114: Line 1541: `Server.Mobiles.BaseAnimal.Asleep()' hides inherited member `Server.Mobile.Asleep'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+            + Custom Systems/Cooking Expansion Set/Mobiles/Animals/Goat.cs:
+            CS0114: Line 113: `Server.Mobiles.Goat.VegetableFood(Server.Item)' hides inherited member `Server.Mobiles.BaseAnimal.VegetableFood(Server.Item)'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+            + Custom Systems/Referral Rewards/XmlReferralRewards.cs:
+            CS0108: Line 77: `Server.Engines.XmlSpawner2.XmlReferralRewards.Initialize()' hides inherited member `Server.Engines.XmlSpawner2.XmlAttachment.Initialize()'. Use the new keyword if hiding was intended
+            + Custom Systems/Cooking Expansion Set/Garden/GardenDeed.cs:
+            CS0162: Line 135: Unreachable code detected
+            + Custom Systems/Cooking Expansion Set/Garden/SecureGarden.cs:
+            CS0162: Line 111: Unreachable code detected
+            + Custom Systems/NewBoats/BoatPaint/PaintCan.cs:
+            CS0168: Line 134: The variable `p3d' is declared but never used
+            + Custom Systems/Referral Rewards/ReferralRewardItems.cs:
+            CS0162: Line 86: Unreachable code detected
+            + Custom Systems/Referral Rewards/ReferralRewardsStone.cs:
+            CS0162: Line 36: Unreachable code detected
+            + Custom Systems/Referral Rewards/TellAFriend.cs:
+            CS0162: Line 31: Unreachable code detected
+            + Misc/RaceDefinitions.cs:
+            CS0162: Line 432: Unreachable code detected
+            + Services/PlantSystem/Clippers.cs:
+            CS0162: Line 329: Unreachable code detected
+            + Services/Quests/Peerless System/PeerlessAltar.cs:
+            CS0472: Line 607: The result of comparing value type `System.TimeSpan' with null is always `true'
+            + Custom Systems/Cooking Expansion Set/Foods/Container Food/ContainerFood.cs:
+            CS0649: Line 10: Field `Server.Items.ContainerFood.m_Poisoner' is never assigned to, and will always have its default value `null'
+            CS0649: Line 11: Field `Server.Items.ContainerFood.m_Poison' is never assigned to, and will always have its default value `null'
+            Scripts: One or more scripts failed to compile or no script files were found.
+            - Press return to exit, or R to try again.
+            Click to expand...
+
+         
+
+    Last edited: Nov 28, 2014
+    Fenris, Nov 28, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #32
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        again says no errors something is not right your getting warnings I never seen before too... what is this about mono support..
+
+        run your server run debug mode see if that can help some you have warnings from other scripts not just cooking but I cleaned some of those up.
+         
+
+    Dragon Slayer, Nov 28, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #33
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Our server works with these warnings (other than cooking) without problem. But when I implement Cooking Expansion I cannot compile it.
+         
+
+    Last edited: Nov 29, 2014
+    Fenris, Nov 29, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #34
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        then has to be something your not adding in right I grabbed a fresh justup installed it right from this package using same readme I provided and it compiled
+         
+
+    Dragon Slayer, Nov 29, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #35
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        Fenris
+        Please try to be more specific when you are posting troubles. When you just say it will not compile, there is nothing for us to go by to try and help you with.
+
+        Explain how you are adding something, and the errors you get with doing so, and we can try to help :)
+         
+
+    Dian, Nov 29, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #36
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Dian. Unfortunately under my mono - I cannot compile both
+        - the latest "clean" version of justuo and
+        - my server + additional scripts
+        and this expansion :(.
+        We cannot full run up our server with expansion in debug version because the server does not start at all (pasted earlier logs). On the other hand, use the debug option when starting the server does not display any additional information besides those already pasted. I think that the problem may be due to possible incompatibility of certain elements of the package with mono (or be caused - after all - one of the warnings) or some implementation lack because without expansion, our server works properly.
+
+        Here is our implementation list step by step. Dragon, mayby You can see any our implementation mistake ? I'm really confused and havnt any idea whats wrong is it:( Sorry for problems.
+
+        First I drop full expansion to my scripts/custom folder
+        next
+        for Cooking Expansion:
+        I turn off all this files in scripts/items/food : Asian.cs beverage.cs beverageempty.cs cookablefoods.cs cooking.cs foods.cs fruits.cs Vegetables.cs bowls.cs
+        Also turn off fireplace addons in my items/addons folder: GrayBrickFireplaceEastAddon.cs, GrayBrickFireplaceSouthAddon.cs, SandstoneFireplaceEastAddon.cs, SandstoneFireplaceSouthAddon.cs,
+        StoneFireplaceEastAddon.cs, StoneFireplaceSouthAddon.cs and all files in farming folder. Also I turn off files SBbeekeeper.cs, CandleLong.cs, CandleShort.cs, CandleSkull.cs and defcooking.cs .
+
+        Next in basecreature.cs i change
+
+            public enum MeatType
+            {
+            Ribs,
+            Bird,
+            LambLeg
+            }
+
+        to
+
+            public enum MeatType
+            {
+            Ribs,
+            Bird,
+            LambLeg,
+            Venison,
+            Chicken,
+            Duck,
+            Turkey
+            }
+            Click to expand...
+
+        and from
+
+            if (meat != 0)
+            {
+            if (MeatType == MeatType.Ribs)
+            {
+            corpse.AddCarvedItem(new RawRibs(meat), from);
+            }
+            else if (MeatType == MeatType.Bird)
+            {
+            corpse.AddCarvedItem(new RawBird(meat), from);
+            }
+            else if (MeatType == MeatType.LambLeg)
+            {
+            corpse.AddCarvedItem(new RawLambLeg(meat), from);
+            }
+
+            from.SendLocalizedMessage(500467); // You carve some meat, which remains on the corpse.
+            }
+            Click to expand...
+
+        to
+
+            if (meat != 0)
+            {
+            if (MeatType == MeatType.Ribs)
+            {
+            corpse.AddCarvedItem(new RawRibs(meat), from);
+            }
+            else if (MeatType == MeatType.Bird)
+            {
+            corpse.AddCarvedItem(new RawBird(meat), from);
+            }
+            else if (MeatType == MeatType.LambLeg)
+            {
+            corpse.AddCarvedItem(new RawLambLeg(meat), from);
+            }
+            else if (MeatType == MeatType.Venison)
+            {
+            corpse.AddCarvedItem(new RawVenisonSteak(meat), from);
+            }
+            else if (MeatType == MeatType.Chicken)
+            {
+            corpse.AddCarvedItem(new RawChicken(meat), from);
+            }
+            else if (MeatType == MeatType.Duck)
+            {
+            corpse.AddCarvedItem(new RawDuck(meat), from);
+            }
+            else if (MeatType == MeatType.Turkey)
+            {
+            corpse.AddCarvedItem(new RawTurkey(meat), from);
+            }
+
+            from.SendLocalizedMessage(500467); // You carve some meat, which remains on the corpse.
+            }
+            Click to expand...
+
+        Next, I modify craftitem.cs where after line " private bool m_NeedMill;" I add this
+
+            #region Cooking System
+            private bool m_NeedCauldron;
+            private bool m_NeedDistillery;
+            private bool m_NeedSteamPoweredBeverageMaker;
+            #endregion
+
+        then after line
+
+            public bool NeedMill { get { return m_NeedMill; } set { m_NeedMill = value; } }
+
+        I add
+
+            #region Cooking System
+            public bool NeedCauldron { get { return m_NeedCauldron; } set { m_NeedCauldron = value; } }
+            public bool NeedDistillery { get { return m_NeedDistillery; } set { m_NeedDistillery = value; } }
+            public bool NeedSteamPoweredBeverageMaker { get { return m_NeedSteamPoweredBeverageMaker; } set { m_NeedSteamPoweredBeverageMaker = value; } }
+            #endregion
+
+        and after this line
+
+            private static readonly int[] m_Mills = new[]
+            {
+            0x1920, 0x1921, 0x1922, 0x1923, 0x1924, 0x1295, 0x1926, 0x1928, 0x192C, 0x192D, 0x192E, 0x129F, 0x1930, 0x1931,
+            0x1932, 0x1934
+            };
+
+        I add
+
+            #region Cooking System
+            private static readonly int[] m_Cauldrons = new[]
+            {
+            0x0974, 0x0975
+            };
+            private static readonly int[] m_Distillerys = new[]
+            {
+            0x3DB8, 0x3DB9, 0x3DBA, 0x3DBB
+            };
+            private static readonly int[] m_SteamPoweredBeverageMakers = new[]
+            {
+            0x9A96, 0x9A96
+            };
+            #endregion
+            Click to expand...
+
+        and after
+
+            if (m_NeedMill && !Find(from, m_Mills))
+            {
+            message = 1044491; // You must be near a flour mill to do that.
+            return false;
+            }
+
+        this line
+
+            #region Cooking System
+            if (m_NeedCauldron && !Find(from, m_Cauldrons))
+            {
+            message = "You must be near a cauldron to do that."; // You must be near a flour mill to do that.
+            return false;
+            }
+            if (m_NeedDistillery && !Find(from, m_Distillerys))
+            {
+            message = "You must be near a distillery to do that.";
+            return false;
+            }
+            if (m_NeedSteamPoweredBeverageMaker && !Find(from, m_SteamPoweredBeverageMakers))
+            {
+            message = "You must be near a Steam Powered Beverage Maker to do that.";
+            return false;
+            }
+            #endregion
+            Click to expand...
+
+        Also in craftsystem.cs - after line
+
+            public void SetNeedMill(int index, bool needMill)
+            {
+            CraftItem craftItem = this.m_CraftItems.GetAt(index);
+            craftItem.NeedMill = needMill;
+            }
+
+        I add
+
+            #region Cooking System
+            public void SetNeedCauldron(int index, bool needCauldron)
+            {
+            CraftItem craftItem = this.m_CraftItems.GetAt(index);
+            craftItem.NeedCauldron = needCauldron;
+            }
+            public void SetNeedDistillery(int index, bool needDistillery)
+            {
+            CraftItem craftItem = this.m_CraftItems.GetAt(index);
+            craftItem.NeedDistillery = needDistillery;
+            }
+            public void SetNeedSteamPoweredBeverageMaker(int index, bool needSteamPoweredBeverageMaker)
+            {
+            CraftItem craftItem = this.m_CraftItems.GetAt(index);
+            craftItem.NeedSteamPoweredBeverageMaker = needSteamPoweredBeverageMaker;
+            }
+            #endregion
+            Click to expand...
+
+        I edit SetItem.cs too, where after
+
+            Sorcerer,
+
+        I add
+
+            Fishing [I havnt this line in JustUO but I add it too]
+            Chefs
+
+        Next I install ranch addon. First remove this files
+
+            Boar.cs
+            Bull.cs
+            Cat.cs
+            Chicken.cs
+            Goat.cs
+            Greatheart.cs
+            Hind.cs
+            pig.cs
+            sheep.cs
+            timberwolf.cs
+            packhorse.cs
+            packllama.cs
+            cow.cs
+            Click to expand...
+
+        Also in playermobiles.cs after
+
+            public enum NpcGuild
+            {
+            None,
+            MagesGuild,
+            WarriorsGuild,
+            ThievesGuild,
+            RangersGuild,
+            HealersGuild,
+            MinersGuild,
+            MerchantsGuild,
+            TinkersGuild,
+            TailorsGuild,
+            FishermensGuild,
+            BardsGuild,
+            BlacksmithsGuild
+            }
+            Click to expand...
+
+        I add line
+        RanchersGuild
+
+        At last in BaseAI.cs at the end of this
+
+            public enum AIType
+            {
+
+        I add
+
+            AI_WildAnimal
+
+        and in BaseCreature.cs at the end of
+
+            public void ChangeAIType(AIType NewAI)
+            {
+            if (m_AI != null)
+            m_AI.m_Timer.Stop();
+
+            if (ForcedAI != null)
+            {
+            m_AI = ForcedAI;
+            return;
+            }
+
+            m_AI = null;
+
+            switch (NewAI)
+            {
+            Click to expand...
+
+        I add
+
+            case AIType.AI_WildAnimal:
+            if (!(this is BaseAnimal))
+            {
+            m_AI = new AnimalAI(this);
+            m_CurrentAI = AIType.AI_Animal;
+            }
+            else m_AI = new WildAnimalAI(this);
+            break;
+
+        And here is server startup full logs
+
+            Scripts: Compiling C# scripts...ScriptCompiler: : ../opt/Server/JustUO.exe (Location of the symbol related to previous warning)
+            Finished with: 0 errors, 14 warnings
+            Warnings:
+            + Custom Systems/Cooking Expansion Set/Farming/Crops/Grasses/Sugarcane/SugarcaneCrop.cs:
+            CS0114: Line 11: `Server.Items.Crops.SugarcaneSeed.CanGrowSand' hides inherited member `Server.Items.Crops.BaseCrop.CanGrowSand'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+            + Custom Systems/Cooking Expansion Set/Ranch/BaseAnimal.cs:
+            CS0114: Line 1541: `Server.Mobiles.BaseAnimal.Asleep()' hides inherited member `Server.Mobile.Asleep'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+            + Custom Systems/Cooking Expansion Set/Mobiles/Animals/Goat.cs:
+            CS0114: Line 113: `Server.Mobiles.Goat.VegetableFood(Server.Item)' hides inherited member `Server.Mobiles.BaseAnimal.VegetableFood(Server.Item)'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+            + Custom Systems/Referral Rewards/XmlReferralRewards.cs:
+            CS0108: Line 77: `Server.Engines.XmlSpawner2.XmlReferralRewards.Initialize()' hides inherited member `Server.Engines.XmlSpawner2.XmlAttachment.Initialize()'. Use the new keyword if hiding was intended
+            + Custom Systems/Cooking Expansion Set/Garden/GardenDeed.cs:
+            CS0162: Line 135: Unreachable code detected
+            + Custom Systems/Cooking Expansion Set/Garden/SecureGarden.cs:
+            CS0162: Line 111: Unreachable code detected
+            + Custom Systems/NewBoats/BoatPaint/PaintCan.cs:
+            CS0168: Line 134: The variable `p3d' is declared but never used
+            + Custom Systems/Referral Rewards/ReferralRewardItems.cs:
+            CS0162: Line 86: Unreachable code detected
+            + Custom Systems/Referral Rewards/ReferralRewardsStone.cs:
+            CS0162: Line 36: Unreachable code detected
+            + Custom Systems/Referral Rewards/TellAFriend.cs:
+            CS0162: Line 31: Unreachable code detected
+            + Misc/RaceDefinitions.cs:
+            CS0162: Line 432: Unreachable code detected
+            + Services/PlantSystem/Clippers.cs:
+            CS0162: Line 329: Unreachable code detected
+            + Services/Quests/Peerless System/PeerlessAltar.cs:
+            CS0472: Line 607: The result of comparing value type `System.TimeSpan' with null is always `true'
+            + Custom Systems/Cooking Expansion Set/Foods/Container Food/ContainerFood.cs:
+            CS0649: Line 10: Field `Server.Items.ContainerFood.m_Poisoner' is never assigned to, and will always have its default value `null'
+            CS0649: Line 11: Field `Server.Items.ContainerFood.m_Poison' is never assigned to, and will always have its default value `null'
+            Scripts: One or more scripts failed to compile or no script files were found.
+            - Press return to exit, or R to try again.
+            Click to expand...
+
+        Most suspect seems to me the message - which has never had
+
+            Scripts: Compiling C# scripts...ScriptCompiler: : ../opt/Server/JustUO.exe (Location of the symbol related to previous warning)
+
+        When he flashed on the console, there are also information about the two new warnings,
+
+            + Custom Systems/Cooking Expansion Set/Foods/Container Food/ContainerFood.cs:
+            CS0649: Line 10: Field `Server.Items.ContainerFood.m_Poisoner' is never assigned to, and will always have its default value `null'
+            CS0649: Line 11: Field `Server.Items.ContainerFood.m_Poison' is never assigned to, and will always have its default value `null'
+
+         
+
+    Last edited: Nov 29, 2014
+    Fenris, Nov 29, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #37
+    + Quote
+    Reply
+        Informative Informative x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        I wonder because his server is using mono it cant use this expansion set? dian do you know
+         
+
+    Dragon Slayer, Nov 29, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #38
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        Dragon Slayer updated Cooking Expansion Set with a new update entry:
+
+        Update 7.0
+
+            Version 7.0
+            Fixed all the warnings but maybe one or two.
+            Cleaned up DefCooking some more.
+            Moved ContainerFood.cs to be with Food.cs as it is a base
+
+            I am going to release this because I cleaned up some scripts.
+
+        Read the rest of this update entry...
+         
+
+    Dragon Slayer, Nov 29, 2014
+    Edit
+    Delete
+    Warn
+    Report
+    #39
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        Wow Fenris.. I really do not know what to say there. I have pretty much zero experience with Mono or any idea what the conflicts are between Mono and Windows with the Net Framework. However, I would almost agree that maybe there is something in Mono that will not allow compilation with Warnings.
+
+        Does anyone know if there is a setting for the Compiler in Mono to allow or disallow compiling through Warnings? Maybe similar to using the Unsafe Code setting for compiling the Server?
+
+        Fenris, have you ever had warnings prevent you from compiling any other scripts? Or is this the first time you had this problem that you know of..?
+         
+
+    Dian, Nov 29, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #40
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Sareus
+    Buzzed
+    Sareus
+    Super Contributor
+
+        Im having these following issues.
+
+
+        Code:
+
+        Errors:
+
+        + Customs/Systems/Skills/Cooking Expansion Set/Foods/Food.cs:
+
+            CS0246: Line 5: The type or namespace name 'CustomsFramework' could not be f
+        ound (are you missing a using directive or an assembly reference?)
+
+            CS0246: Line 6: The type or namespace name 'CustomsFramework' could not be f
+        ound (are you missing a using directive or an assembly reference?)
+
+            CS0246: Line 103: The type or namespace name 'BaseCoreEventArgs' could not b
+        e found (are you missing a using directive or an assembly reference?)
+
+        + Customs/Systems/Skills/Cooking Expansion Set/Mobiles/Quests/Bart.cs:
+
+            CS0246: Line 10: The type or namespace name 'BaseQuest' could not be found (
+        are you missing a using directive or an assembly reference?)
+
+            CS0246: Line 75: The type or namespace name 'MondainQuester' could not be fo
+        und (are you missing a using directive or an assembly reference?)
+
+         
+
+    JustUO Server, Social Hub for Other Servers
+    http://dovkas.boards.net/
+    Sareus, Nov 29, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #41
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        You not using JustUO your running Runuo. Almost every script posted here has been converted to work with JustUO Only.. my hole system is based on JustUO.
+
+
+        I say you need to convert your shard over to JustUO if you want current support and better scripts :) as the Dev Team of JustUO is the best of the best :)
+         
+
+    Dragon Slayer, Nov 30, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #42
+    + Quote
+    Reply
+        Friendly Friendly x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        Sareus the problem with the two, RunUO and JustUO that you have here, is the Quest systems are coded in different ways. So yeah, you would either need to convert the quest area of the cooking system here for the RunUO Quest system, or like Dragon said.. consider converting to JustUO.
+         
+
+    Dian, Nov 30, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #43
+    + Quote
+    Reply
+        Useful Useful x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Sareus
+    Buzzed
+    Sareus
+    Super Contributor
+
+        Dian, Dragon Slayer, Thank you I realized this shortly after posting here and passed out after i reverted the changes. No worries I got my RunUO stable back to normal (Yeay backups :Woot:) I am as i'm typing this getting JustUO Think its about time I do some cleaning up of some codes and what better way then to change Emulators :Coffee:.
+         
+
+    JustUO Server, Social Hub for Other Servers
+    http://dovkas.boards.net/
+    Sareus, Nov 30, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #44
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        Just a warning though, if you are thinking of converting to JustuO (or even ServUO for that matter)..
+
+        The Base files of about everything from Mobiles to Items and in between have enough differences in the serializations that you will almost certainly need to start your converted shard from a scratch stand point. Meaning, if you have a developed world with players.. as much as I hate to say it, you will almost certainly need to start the world from the beginning again, as your world saves will not really be compatible.
+        I can say though, it would be well worth it in the end, as JustUO is very much more further along in content than RunUO will more than likely ever be.. not to mention much more active with the community in growth.
+
+        I spend a couple weeks trying to convert my saved world files from my original RunUO to ServUO last year before we created JustUO.. and every dtep forward created 5 more steps backwards. I had to give up and just start clean. But it was well worth it in the end :)
+         
+
+    Dian, Nov 30, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #45
+    + Quote
+    Reply
+        Informative Informative x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Thanks or update Dragon Slayer. With ver 7 modifications our server compiles correctly :) As I understood the old versions of the animals from the game saves need to be removed during startup (example cows, bulls etc) ? The server indicating that they can not be loaded after expansion implementation and turn off justuo version of animal files (I think the reason for the message are differences in the serialization between the justuo and your version of files)
+         
+
+    Last edited: Nov 30, 2014
+    Fenris, Nov 30, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #46
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        oh yeah I didn't think about your saves lol
+        well will ask for a lot to be deleted if you alrwady have saves best remove all spawns and save world
+
+        then go back in and respawn it all again :)
+         
+
+    Dragon Slayer, Nov 30, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #47
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        well im glad you got it to compile
+         
+
+    Dragon Slayer, Nov 30, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #48
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Thanks Dragon Slayer and once again sorry for my inquiry. As I see Mono still hides many of surprises for me, and as you can see even some warnings may be of considerable importance here :p
+        About my saves - I think to:
+        - remove individual types of animals through the use of in-game command or
+        - clean or shutdown all spawns (without removed because I got many of additional custom spawns / created ingame/on my world)
+        + world save
+        and then applying the prepared save on the server with your extension.
+        If I remember I once saw a guide on how to do with certain animal remove command on runuo forum. Do you have mayby any personal experience in this regard?
+         
+
+    Last edited: Nov 30, 2014
+    Fenris, Nov 30, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #49
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Sareus
+    Buzzed
+    Sareus
+    Super Contributor
+
+        Dian said: ↑
+
+            Just a warning though...
+
+        Oh I'm aware of the ramifications of my decision :Banghead:. But as you stated RunUO has kind of died off in terms of development which just wont do in the long run. :Writing:
+         
+
+    JustUO Server, Social Hub for Other Servers
+    http://dovkas.boards.net/
+    Sareus, Nov 30, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #50
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+51 more messages...
+
+
+
+        Fenris if you have your world spawned with XML Spawner, use the command [xmlfind and you can search for specific spawners with a certain creature type. You can then select all those spawners and run a reset command on all of those spawners to turn them off.
+
+        You could alternativley use a command like [global set DoReset true where xmlspawner and it will despawn and turn off ALL xml spawners in the world for you to reboot with your script package.
+        Afterwards, use the command [glabla set running true where xmlspawner to turn them all back on again :)
+         
+
+    Dian, Nov 30, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #51
+    + Quote
+    Reply
+        Useful Useful x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Many thanks Dian. I think the way you described would be the best solution :) Again thanks for You and Dragon Slayer.
+         
+
+    Fenris, Nov 30, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #52
+    + Quote
+    Reply
+        Agree Agree x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Don't know why but on my client version 7.0.38 I can cut (with dagger or butcher knife) for example one cow, bull, pig, deer or greatheart corpse many times for hides and meat (dropped inside animal corpse loot gump). In addition meat cut with an animal got a house walls graphics (??) but as I see in Your scripts for different types of meat ID codes are correct.
+         
+
+    Last edited: Dec 3, 2014
+    Fenris, Dec 3, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #53
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        I don't know ill check this out might be the new animal ai ill look into it this weekend when I get time been abusy week
+         
+
+    Dragon Slayer, Dec 3, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #54
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Sareus
+    Buzzed
+    Sareus
+    Super Contributor
+
+        Im currently using JustUO and Chocolatiering.cs is still throwing errors in reference to the chocolate crafting added with ML. If it was also meant to be removed the instructions didn't mention it. :Thumbsup:
+
+
+        Code:
+
+        Scripts: Compiling C# scripts...Failed with: 1 errors, 0 warnings
+        Errors:
+        + Items/Food/Chocolatiering.cs:
+            CS0246: Line 185: The type or namespace name 'BaseSweet' could not be found
+        (are you missing a using directive or an assembly reference?)
+            CS0246: Line 217: The type or namespace name 'BaseSweet' could not be found
+        (are you missing a using directive or an assembly reference?)
+            CS0246: Line 249: The type or namespace name 'BaseSweet' could not be found
+        (are you missing a using directive or an assembly reference?)
+        Scripts: One or more scripts failed to compile or no script files were found.
+
+         
+
+    JustUO Server, Social Hub for Other Servers
+    http://dovkas.boards.net/
+    Sareus, Dec 4, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #55
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        BaseSweet should be in the file Scripts\Items\Special\Holiday\HolidayFood.cs ?
+
+        You may be needing using Server.Items; at the top of the file possibly?
+         
+
+    Dian, Dec 4, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #56
+    + Quote
+    Reply
+        Like Like x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Sareus
+    Buzzed
+    Sareus
+    Super Contributor
+
+        Dian said: ↑
+
+            BaseSweet should be in the file Scripts\Items\Special\Holiday\HolidayFood.cs ?
+
+            You may be needing using Server.Items; at the top of the file possibly?
+
+        As someone who has never really liked the toothache attribute I simply commented BaseSweet out of the Playermobile.cs; along with changing the Types of (DarkChocolate, MilkChocolate, WhiteChocolate) from BaseSweet to Food. Everything works fine and no more annoying ToothAches.
+
+        I realize this fix isn't for everyone but its made me feel better so if anyone wants a more detailed explanation Ill post the steps.
+         
+
+    JustUO Server, Social Hub for Other Servers
+    http://dovkas.boards.net/
+    Sareus, Dec 4, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #57
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        I was wandering why you posted here I didn't mess with that file I was like I know my cooking package doesn't harm that file... if your using my cooking package might not be a lot you don't like lol.. like raw food can be eaten and will poison you hehe
+         
+
+    Dragon Slayer, Dec 5, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #58
+    + Quote
+    Reply
+        Funny Funny x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Sareus
+    Buzzed
+    Sareus
+    Super Contributor
+
+        Dragon Slayer said: ↑
+
+            I was wandering why you posted here I didn't mess with that file I was like I know my cooking package doesn't harm that file... if your using my cooking package might not be a lot you don't like lol.. like raw food can be eaten and will poison you hehe
+
+        I posted here because I downloaded JustUO and dropped your package in with the readme edits and it threw that error *shrugs* Just assumed it was something that got missed. After not being able to get it to work I just removed the toothache feature all togeather. As for the sickness I actually like that concept thats one of the main reasons I got this pack.
+
+        Great Work by the way loving it! :Thumbsup:
+         
+
+    JustUO Server, Social Hub for Other Servers
+    http://dovkas.boards.net/
+    Sareus, Dec 5, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #59
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        np no I don't know why basesweet would mess up but I plain on redoing the hole candy stuff in this package later on but I been mainly focusing on cleaning it up and making sure its clean and easy install
+         
+
+    Dragon Slayer, Dec 5, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #60
+    + Quote
+    Reply
+        Like Like x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        I will confirm only that bug with unlimited corpse cut for leather and meat + unproperly meat graphic exist also on new client 7.0.40+.
+         
+
+    Fenris, Dec 6, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #61
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        Fenris I found its not the client with the graphic sets it was a code problem in the scirpts them self's I fixed this tho. I will be posting a update today
+         
+
+    Dragon Slayer, Dec 6, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #62
+    + Quote
+    Reply
+        Like Like x 2 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        Dragon Slayer updated Cooking Expansion Set with a new update entry:
+
+        Graphic and Name Fixes 8.0
+
+            Version 8.0
+            Updated Cooking Expansion Set Setup.
+            Fixed Some Foods was missing Amount this should correct the graphics.
+            Moved Raw meats into the Raw Food Folder.
+            Fixed name on turkey items and duck items.
+            Moved deer/sheep/goat skins to Ranch Folder under Animal Resources.
+            Moved Cooking Utensils out of the food folder.
+            Fixed some crops to grow only on some land tiles like they should.
+            Added Pork To Cooking Menu.
+            Click to expand...
+
+        Read the rest of this update entry...
+         
+
+    Dragon Slayer, Dec 6, 2014
+    Edit
+    Delete
+    Warn
+    Report
+    #63
+    + Quote
+    Reply
+        Like Like x 2 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Thanks for your new update. Graphics are already correct but player can still cut (with dagger or butcher knife) for example one cow, bull, pig, deer or greatheart corpse more than one times for hides and meat (dropped inside animal corpse loot gump) although the message is displayed "you see nothing useful to carve for the corpse". Normally, after cutting once - another cutting does not bring resources.
+         
+
+    Last edited: Dec 7, 2014
+    Fenris, Dec 7, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #64
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        ill check that out
+         
+
+    Dragon Slayer, Dec 7, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #65
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        Fenris said: ↑
+
+            Thanks for your new update. Graphics are already correct but player can still cut (with dagger or butcher knife) for example one cow, bull, pig, deer or greatheart corpse more than one times for hides and meat (dropped inside animal corpse loot gump) although the message is displayed "you see nothing useful to carve for the corpse". Normally, after cutting once - another cutting does not bring resources.
+
+        I assume you meant.. another cutting Does bring more resource?
+         
+
+    Dian, Dec 7, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #66
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        I find out lol some lines of code was missed on some of the animals I will be uploading 8.1 today Thanks fenris for the hard testing you been doing im trying my best to keep this package clean and bug free
+         
+
+    Dragon Slayer, Dec 7, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #67
+    + Quote
+    Reply
+        Like Like x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        Dragon Slayer updated Cooking Expansion Set with a new update entry:
+
+        Fixed Carve
+
+            Version 8.1
+            Fixed carving on some animals so doesn't give unlimited resources.
+
+        Read the rest of this update entry...
+         
+
+    Dragon Slayer, Dec 7, 2014
+    Edit
+    Delete
+    Warn
+    Report
+    #68
+    + Quote
+    Reply
+        Like Like x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Hmhhh we got a small .... problem lolol..... Wild animal (for example hind) on couple of small location (example Haven) born new babies dramatically and now we got hunderds pets around lol. I think that I must decrease number of animals on spawns in this area now :p
+         
+
+    Last edited: Dec 20, 2014
+    Fenris, Dec 20, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #69
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        I believe Dragon said there was somewhere in the files, a setting to how heavy the animals reproduce.
+         
+
+    Dian, Dec 20, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #70
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+            public override void CreateBaby()
+            {
+            for (int j = 0; j < this.LitterSize; j++)
+            {
+            int gender = Utility.RandomMinMax(1,4);
+            if (gender == 1)
+
+        Thanks Dian
+        I decrease random MinMax of babies from 1-4 to 1-2, I think its solve my problems a little :p
+         
+
+    Last edited: Dec 20, 2014
+    Fenris, Dec 20, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #71
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        you really shouldn't have to worry about it tho LOL I have had my server running for a month with this system and long as there is timberwolfs and a sever restart should be no problem
+
+        server restart if I remember correctly babies get wiped and if there is timber wolfs in the area the will kill the babies I know its horrible lol but life is a circle and we need to keep the pop under control..
+
+
+        but again I have ran my server for a month or longer with this system and my npc number still the same it goes up about couple hundred then drops again. all because those timberwolfs keep the pop under control by killing npcs.. also the babies only can be born if the spawner the mom spawns on is not at its max.. say spawn 5 sheep well its all maxed out s no sheep will have babies untell one of those 5 die so your safe no overloading your world I promise and I use the kill command all the time on them im not sure what your doing different lol...
+         
+
+    Dragon Slayer, Dec 20, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #72
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        Also you don't need to change those settings you can do this in the nopc its self
+
+        MateActive = true;
+        LitterSize = 1;
+        MaxAge = 30;
+        MatingSeason = Seasons.Any;
+
+        Here list seasons that can be set
+
+        if ((map.Season == 0) && (MatingSeason == Seasons.Spring)) returntrue;
+        if ((map.Season == 1) && (MatingSeason == Seasons.Summer)) returntrue;
+        if ((map.Season == 2) && (MatingSeason == Seasons.Autumn)) returntrue;
+        if ((map.Season == 3) && (MatingSeason == Seasons.Winter)) returntrue;
+
+        I will be changing the mobiles to only make babies in there season right now set to any lol
+
+        basicly you can set the season it has a babie I was looking more into the script when the animal hits its max age it will die... so like I said system pretty much controls its self
+
+        also I noticed the boar didn't have a littersize and that was causing her to pop unlimited babies out this has been fixed I set the max to 2 babies for each animal :) you can change this on your mobiles if you wish. ill even have a guide how to make more animals act like the ones the ones come with this package so people can make there own custom ones.
+         
+
+    Last edited: Dec 20, 2014
+    Dragon Slayer, Dec 20, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #73
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        I think that my problem is compared with shorter hind/great harts activity (twilight - is short part from the rest od the day). As I see when this animal resting they got a gray colour and cannot being attacked by other animals (they are invisible for players and other animals). Also GM cannot kill them via [kill command (I received information that "They cannot be harmed"). But on our staff toons we see hunderts of it as invisible/resting especially on small land areas (example islands) When we click on it his status change to visible/forced. I think that longer activity (example change part of day activity from twiling to the day or changing twilight/day hours for longer nights) can solve this problem (looks that timberwolfs got a full day activity). Now we will change our shard day/night hours for longer twilight with smaller babies increase (3)
+        No less - I can confidently say that your system is brilliant :D
+         
+
+    Last edited: Dec 21, 2014
+    Fenris, Dec 21, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #74
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        Day and night is just for sleeping...
+
+        So if they are asleep you wont beable to kill them as a gm are invul and invisible just wait for them to be awake or double click them that forces them to be your pet..
+
+        like I said they can only mate during there seasons and I looked all them was set to any season so they would make any season to help control babies even more. just set the season you want them to mate in like I have went though and changed a lot of them for next update so they will only mate now during there season.. if am correct JustUO winter is only during winter so mating will only happen during winter ;) for some of them and spring and fall for others.
+         
+
+    Last edited: Dec 21, 2014
+    Dragon Slayer, Dec 21, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #75
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+26 more messages...
+
+
+
+        Dragon Slayer updated Cooking Expansion Set with a new update entry:
+
+        Recipes Additions Plus Fixes 9.0
+
+            I have finally Made a Milestone with this release.. Thanks to the users of JustUO I have fixed so many bugs I wouldn't of seen and have tweaked the system to make it even more perfect.. every reply and every thought has made this system what it is today. Again Thank you All for supporting it and I will Be Making More But for 2014 this is the Last Version of the Year
+
+            Starting 2015 You will See Version 10 and more with tons of cleanup and updates as we keep moving forward :)
+
+            Merry Christmas and...
+            Click to expand...
+
+        Read the rest of this update entry...
+         
+
+    Dragon Slayer, Dec 21, 2014
+    Edit
+    Delete
+    Warn
+    Report
+    #76
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+            also the babies only can be born if the spawner the mom spawns on is not at its max.. say spawn 5 sheep well its all maxed out s no sheep will have babies untell one of those 5 die so your safe no overloading your world I promise and I use the kill command all the time on them im not sure what your doing different lol
+
+        Are you sure? My hind, wolfs and example cats still got many on babies - much more than max spawn in area (example 100+ hind on one screenshot :)). I think that spawns control only limit of hind created by individual spawner but no babies ..... So yes - all work correctly until animal created by individual spawn do not have babies which born out of spawn, because these babies are beyond the control of that spawn and can reproduce in a manner not covered by the spawner limit restrictions. I see no other explanation, by a dramatically increase the population from several of hind on the small area to even 300-400 in two mayby three week :D Also look that if you remove spawner with animal mom or remove this mom by click on spawner npc decrease amount button, her babies still exist in game and later can repoduce.
+        I think that most accurate approach would be to limit the number of animal babies and simultaneously reduce the time of their lives for example, so that the deer do not reproduce too quickly in relation to population loss. This is the effective solution, because it is not possible to place spawn of wolves next to each spawn of deer/hind, especially that his babies havn't any area limit and can move everywhere.
+         
+
+    Last edited: Dec 25, 2014
+    Fenris, Dec 25, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #77
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        To limit the growth of new young hind, according to your suggestion I introduced season different from the one in which deer are born. BTW one question about season change. If I remember good - in ServUO/RunuUO I can change it only manually in mapdefinitions.cs. It's possible to enable season autochange in JustUO?
+         
+
+    Last edited: Dec 25, 2014
+    Fenris, Dec 25, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #78
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        not sure but I don't see why you have a overspawn my server is running all maps spawned fully and my npc pop doesn't go high I just wander if its mono causing your problems
+         
+
+    Dragon Slayer, Dec 25, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #79
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Ravenwolfe
+    Fine
+    Ravenwolfe
+    Administrator
+    Staff Member
+    JustUO Developer
+
+        I use this for changing seasons in game:
+         
+
+    Attached Files:
+        ChangeSeason.cs
+
+        File size:
+            2.2 KB
+
+        Views:
+            15
+
+    Ravenwolfe, Dec 25, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #80
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Mayby Dragon. I detect this problem especially on small area for example islands like Gloow and Haven. On our shard Trammel isn't available for a players except Haven. Around this City xmlspawner create packs of animals and here I find hundreds of hinds. Also I found many of wolfs on the South part of Gloow island especially around Zoo. I think That small land area on islands block animals long way movement so they meet much often and often born babies (on continents this problem isn't visible due large land area). May you check this two islands on your shard (and animals population on it) please? Sorry for my questions but I looking how to solved this problem on my shard which works - as you wrote- on mono:). BTW on both location I found that hinds or wolfs babies havnt information about his mom in props (null).
+         
+
+    Last edited: Dec 26, 2014
+    Fenris, Dec 26, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #81
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Thanks for your script Ravenwolfe. It's very useful addon but unfortunately remember season only to next server reset. Also as I see for a winter season snow is visible on the ground only in 2D version, but no in Enhanced Client :(
+
+        Btw I find another season change addon on runuo - here is a link:
+        http://www.runuo.com/community/threads/runuo-2-0-rc1-time-system-with-season-change.74070/
+        with link to latest verson at the end of topic.
+        I do not test it yet but a put link here for those interested in this kind of addition.
+         
+
+    Last edited: Dec 26, 2014
+    Fenris, Dec 26, 2014
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #82
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        I watch out for time system it's bugged
+         
+
+    Dragon Slayer, Dec 26, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #83
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Ravenwolfe
+    Fine
+    Ravenwolfe
+    Administrator
+    Staff Member
+    JustUO Developer
+
+        Yeah, sorry, i very rarely restart so it works fine for me.
+
+        If I restarted often, i would just modify the mapdefinition as needed and not need the script at all, lol.
+         
+
+    Ravenwolfe, Dec 26, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #84
+    + Quote
+    Reply
+        Agree Agree x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        I use to use that time system years ago. It worked well, but yes it was not truly perfected. However, it really does add some nice touch's to the shard, including the activation of all light source items in the world that light up and turn off according to day/night (like lamp posts around the towns and windows in buildings)
+         
+
+    Dian, Dec 26, 2014
+    Edit
+    Delete
+    IP
+    Report
+    #85
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        I was just reading it was bugged reason I said that hehe...
+
+        I am working on a new way for animals to create babies at a random chance of prego
+
+        be like if chance is 10 then the baby will be born if not then it wont have a baby in real life not every time it maets it has a baby so I figured I would addd it so it would slow baby birth down some on shards that cant handle the baby boom lol.. but im going to login to his shard see if we can come to a fix.... also im going to add sme more wolfs into the package that will only kill for food to help control the pop.
+         
+
+    Dragon Slayer, Dec 27, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #86
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        Dragon Slayer updated Cooking Expansion Set with a new update entry:
+
+        Major Changes
+
+            Version 10.0
+            Added Stat and skill Boost to food.cs.
+            Added Food stat and skill readme.
+            Removed Foodeffects from Food.cs to stay with JustUo so no one has to edit it.
+            Added Rotten Food to be random factor on foods.
+            Renamed all Animals to Farm , Town , Wild infront of there file names so you will no longer have to replace your JustUo distro ones.
+            Updated Ranch Installation Guide on new animals.
+
+            I have did some major changes to the system to stay with current JustUO and I added a huge new stat and...
+            Click to expand...
+
+        Read the rest of this update entry...
+         
+
+    Dragon Slayer, Dec 28, 2014
+    Edit
+    Delete
+    Warn
+    Report
+    #87
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Houston we got a problem (i think missing file) :)
+
+            + Custom Systems/Cooking Expansion Set v10/Foods/Oils/FishOil.cs:
+            CS0246: Line 54: The type or namespace name `OracleOfTheSea' could not be found. Are you missing an assembly reference?
+            CS0246: Line 57: The type or namespace name `OracleOfTheSea' could not be found. Are you missing an assembly reference?
+
+         
+
+    Fenris, Dec 30, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #88
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        just remove fish oil and fish oil from the craftmenu
+         
+
+    Dragon Slayer, Dec 30, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #89
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Precisely what we did :)
+         
+
+    Fenris, Dec 30, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #90
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dragon Slayer
+    Breezy
+    Dragon Slayer
+    Grandmaster Member
+
+        I forgot my fish oil was tied to the new fishing system that I added that is on this boards
+         
+
+    Dragon Slayer, Dec 30, 2014
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #91
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Fenris
+    Sunshine
+    Fenris
+    Super Contributor
+
+        Post in wrong topic soory - I moved it
+         
+
+    Last edited: Jan 1, 2015
+    Fenris, Jan 1, 2015
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #92
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Döschl
+    Döschl
+    Super Contributor
+
+        One question:
+
+        if I log in farmpets stand next to me.
+        but the pets should be available on the farm.
+        where I have to change it, that pets do not automatically log out?
+         
+
+    Döschl, May 1, 2015
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #93
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Omegaexdeath
+    Angelic
+    Omegaexdeath
+    Distinguished Member
+
+        K so what do you mean exactly by First you will need to turn off/shut off these files
+        in your scripts...
+
+        do you mean_
+        1 turn off in game while logged in somehow?
+        2 take the scripts out of the folder all together?
+
+        I dont wanna ass:Drool:sume the wrong thing & waste time
+
+        this is gonna be an awesome challenge as is
+
+
+
+
+        (PCLOADLETTER WHAT THE F*** DOES THAT MEAN?!?)
+         
+
+    Omegaexdeath, May 11, 2015
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #94
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        Honestly.. I wouldnt use this system as is.
+        Anyone that grabs this system should review what it has in it carefully, and just take the portions you want to incorporate into your shard package in piece form.
+
+        The guy that posted this is no longer present here to support anything, and it also was just a hodge podge of multiple other peoples work that he combined into one package. So take care using it as it is.
+
+        *Dragon Slayer, aka Nathen, aka Captain Blackheart..
+         
+
+    Last edited: May 12, 2015
+    Dian, May 11, 2015
+    Edit
+    History
+    Delete
+    IP
+    Report
+    #95
+    + Quote
+    Reply
+        Informative Informative x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Dian
+    Devilish
+    Dian
+    Administrator
+
+        Oh, and I believe what he meant by 'Turn Off' was, you need to remove the scripts, as there are ones in the package that would replace them.
+         
+
+    Dian, May 11, 2015
+    Edit
+    Delete
+    IP
+    Report
+    #96
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Omegaexdeath
+    Angelic
+    Omegaexdeath
+    Distinguished Member
+
+        thank you for clarifying turn off lol :Roflmao:
+
+        oh it looked so epic but too good to be true huh?
+
+        Im glad I didnt jump right into that one
+
+        Im guessing he was on release 1 justuo when this was made as well
+
+        Ill add it to my For editing file lol
+
+        I didnt like some edits anyway the more i looked into it the more I was like nono
+        and Im not taking out any scripts
+
+        he also released a playermobile he took Queens loyalty out of or parts were missing not sure which but then released it as a replaceable distro (if you read this dragon not knockin yea just sayin:Joyful:)
+
+        you got me good:Cautious:
+         
+
+    Omegaexdeath, May 11, 2015
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #97
+    + Quote
+    Reply
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    omni19
+    omni19
+    Renowned Member
+
+        Actually I've got it compiling fine on the EC distro. Make sure you read the documentation folder and make all of the edits in the "installation instructions" files.
+         
+
+    omni19, May 15, 2015
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #98
+    + Quote
+    Reply
+        Agree Agree x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Omegaexdeath
+    Angelic
+    Omegaexdeath
+    Distinguished Member
+
+        turn off :Laugh:that got me:Roflmao:
+
+        Hey I dont mind updated files
+
+            First you will need to turn off all this files in your scripts/items/food
+            Asian.cs beverage.cs beverageempty.cs cookablefoods.cs
+            cooking.cs foods.cs fruits.cs Vegetables.cs bowls.cs
+
+            You will also need to turn off all the fireplace addons in you items/addons folder
+            GrayBrickFireplaceEastAddon.cs, GrayBrickFireplaceSouthAddon.cs, SandstoneFireplaceEastAddon.cs, SandstoneFireplaceSouthAddon.cs,
+            StoneFireplaceEastAddon.cs, StoneFireplaceSouthAddon.cs
+            Click to expand...
+
+        :Roflmao: unclear :Shifty:NotHappening:Cautious:
+
+        sorry I need time to look at all the edits
+
+        just for reference this is the original version, I believe harvest system is in justuo repo
+        http://www.runuo.com/community/threads/cooking-harvest-and-more-package.89072/
+
+        & i can compare the old to DragonSlayers version which has updated code
+
+        but just wasnt wasting time on that until i do more searching
+         
+
+    Omegaexdeath, May 15, 2015
+    Edit
+    Delete
+    IP
+    Warn
+    Report
+    #99
+    + Quote
+    Reply
+        Useful Useful x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+    Sareus
+    Buzzed
+    Sareus
+    Super Contributor
+
+        omni19 said: ↑
+
+            Actually I've got it compiling fine on the EC distro. Make sure you read the documentation folder and make all of the edits in the "installation instructions" files.
+
+        Its not that it doesn't work its just a bunch of systems thrown together and its kind of a hot mess as is.
+
+        I've been using and updating it since he released v7 and i like pieces of it but i've been cutting most of the extra out.
+         
+
+    JustUO Server, Social Hub for Other Servers
+    http://dovkas.boards.net/
+    Sareus, May 18, 2015
+    Edit
+    History
+    Delete
+    IP
+    Warn
+    Report
+    #100
+    + Quote
+    Reply
+        Agree Agree x 1 List 
+        Like Dislike Agree Disagree Funny Winner Informative Friendly Useful Optimistic Creative Old Bad Spelling 
+
+1 more message...
+
+	
+
+    Nice work! My players love it. Had to change the ranchstone.cs due to someone placing it and double clicking it without adding an owner with [props.
+
+
+    Code:
+
+    public override void OnDoubleClick( Mobile from )
+            {
+                if (!(from.HasGump( typeof( RanchStoneGump))))
+                {
+                    if(this.Owner == null || this.Name == null)
+                    {
+                        from.SendMessage("Please props the stone and set an owner first!");
+                        return;
+                    }
+                    if (from == m_Owner || from.AccessLevel >= AccessLevel.GameMaster)
+                    {
+                        from.SendGump( new RanchStoneGump(this) );
+                    }
+                    else from.SendMessage("You aren't the ranch owner.");
+                }
+            }
+
+     
+
+TheDoc, May 21, 2015
+Edit
+Delete
+IP
+Warn
+Report
+#101
++ Quote
+Repl
