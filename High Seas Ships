@@ -1,0 +1,14 @@
+This ressource includes the following additions :
+
+- New boats and galleons with smooth movement and mouse control
+- Boat fighting with cannons
+- Boat painting
+- Security settings through a menu on the Tillerman
+
+Please consider many people contributed to this package. First nibbio from runuo who created the core files and architecture. Then Jase Giffin from servuo who helped with the way to access the ships (ropes and recall). And I won't forget Macil and his friends who helped with tests and gave me a lot of ideas and bugs to correct :)
+
+The current version isn't fully over yet. So please report any bug and be tolerant to the state of the package, which will evolve with time and effort.
+
+Thanks everyone who said they enjoyed this resource !
+
+-Regnak-
